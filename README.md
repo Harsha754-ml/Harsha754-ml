@@ -1,4 +1,4 @@
-# 💫 About Me:
+# About Me:
 I’m currently working on:<br>Building small tools, experimenting with automation, and learning full-stack web development.<br><br>I’m looking to collaborate on:<br>Beginner-friendly open-source projects, simple web apps, and anything that helps me grow as a developer.<br><br>I’m looking for help with:<br>Improving my JavaScript skills, backend–frontend integration, and writing cleaner, more maintainable code.<br><br>I’m currently learning:<br>HTML, CSS, JavaScript, Flutter, Python backend basics, version control, and UI/UX principles.<br><br>Ask me about:<br>Virtual machines, tinkering with devices, customization, Linux experiments, and quick automation ideas.<br><br>Fun fact:<br>I learn best by breaking things, fixing them, and pretending I meant to do it that way.
 
 
