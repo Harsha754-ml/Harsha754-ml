@@ -1,5 +1,21 @@
 # About Me:
-I’m currently working on:<br>Building small tools, experimenting with automation, and learning full-stack web development.<br><br>I’m looking to collaborate on:<br>Beginner-friendly open-source projects, simple web apps, and anything that helps me grow as a developer.<br><br>I’m looking for help with:<br>Improving my JavaScript skills, backend–frontend integration, and writing cleaner, more maintainable code.<br><br>I’m currently learning:<br>HTML, CSS, JavaScript, Flutter, Python backend basics, version control, and UI/UX principles.<br><br>Ask me about:<br>Virtual machines, tinkering with devices, customization, Linux experiments, and quick automation ideas.<br><br>Fun fact:<br>I learn best by breaking things, fixing them, and pretending I meant to do it that way.
+I’m currently working on:<br>
+Building small tools, experimenting with automation, breaking systems on purpose (for learning), and learning full-stack web development through hands-on projects.<br><br>
+
+I’m looking to collaborate on:<br>
+Beginner-friendly open-source projects, simple but meaningful web apps, and anything that lets me learn by doing instead of just watching tutorials.<br><br>
+
+I’m looking for help with:<br>
+Strengthening my JavaScript fundamentals, understanding backend–frontend integration properly, and writing cleaner, more maintainable code that doesn’t make future-me suffer.<br><br>
+
+I’m currently learning:<br>
+HTML, CSS, JavaScript, Flutter, Python backend basics, version control, UI/UX principles, and how real applications actually work behind the scenes.<br><br>
+
+Ask me about:<br>
+Virtual machines, device tinkering, system customization, Linux experiments, automation ideas, and fixing things after they mysteriously stop working.<br><br>
+
+Fun fact:<br>
+I learn best by breaking things, fixing them, and confidently pretending it was intentional all along.
 
 
 ## 🌐 Socials:
