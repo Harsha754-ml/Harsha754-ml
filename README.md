@@ -1,4 +1,4 @@
-# 💫 About Me:
+# About Me:
 I’m currently working on:<br>Projects that combine web development and automation.<br><br>I’m looking to collaborate on:<br>Small open-source projects where I can contribute consistently.<br><br>I’m looking for help with:<br>Deployments and turning projects into real products.<br><br>I’m currently learning:<br>React, backend APIs, databases, and Linux.<br><br>Ask me about:<br>VM setups, Python tools, GitHub, and beginner web dev.<br><br><br><br>Fun fact:<br>I like learning the hard way. It sticks.
 
 
