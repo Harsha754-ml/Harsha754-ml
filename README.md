@@ -49,7 +49,7 @@
 ## 🛠 Tech Stack (Clean)
 
 <p>
-  <img src="https://skillicons.dev/icons?i=python,js,ts,react,nodejs,mongodb,mysql,firebase,git,github,linux,vite,tailwind,adobe" />
+  <img src="https://skillicons.dev/icons?i=python,js,ts,react,nodejs,mongodb,mysql,firebase,git,github,linux,vite,tailwind,ps" />
 </p>
 
 ---
