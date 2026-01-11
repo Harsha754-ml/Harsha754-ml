@@ -46,7 +46,7 @@
 
 ---
 
-## 🛠 Tech Stack (Clean)
+## 🛠 Tech Stack
 
 <p>
   <img src="https://skillicons.dev/icons?i=python,js,ts,react,nodejs,mongodb,mysql,firebase,git,github,linux,vite,tailwind,ps" />
