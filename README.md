@@ -1,6 +1,22 @@
 # About Me:
 I’m currently working on:<br>Projects that combine web development and automation.<br><br>I’m looking to collaborate on:<br>Small open-source projects where I can contribute consistently.<br><br>I’m looking for help with:<br>Deployments and turning projects into real products.<br><br>I’m currently learning:<br>React, backend APIs, databases, and Linux.<br><br>Ask me about:<br>VM setups, Python tools, GitHub, and beginner web dev.<br><br><br><br>Fun fact:<br>I like learning the hard way. It sticks.
 
+## 🔥 Featured Projects
+- **AuraFlow** – File converter + Video Downloader
+- **VTU Scraper** – Result scraping tool with captcha
+- **PdfReaper** – PDF tools & automation
+- **FileHosting** – Self hosted file server
+
+## 🧠 Skills
+- Python, JavaScript
+- Web Development
+- Automation
+- AI/ML Projects
+- Tools: Git, Linux, VMs
+
+## 📌 Currently working on
+- AuraFlow improvements
+- Building real-world automation apps
 
 ## 🌐 Socials:
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/www.linkedin.com/in/katta-harsha-vardhan-475348307) [![X](https://img.shields.io/badge/X-black.svg?logo=X&logoColor=white)](https://x.com/@hv754) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:harsha54k@gmail.com) 
