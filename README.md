@@ -19,7 +19,7 @@
 
 ## 🚀 About Me
 
-- 🔥 Currently building: **AuraFlow** + automation-based web projects  
+- 🔥 Currently building: **AuraFlow** + automation-based web projects (It is in private i willl keep it i public after the complition)
 - 🤝 Open to collaborating on: **small open-source projects (consistent contributions)**
 - 🧠 Learning: **React, Backend APIs, Databases, Linux**
 - 💬 Ask me about: **Python tools, GitHub, VMs, beginner web dev**
