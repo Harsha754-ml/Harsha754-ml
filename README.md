@@ -19,7 +19,7 @@
 
 ## 🚀 About Me
 
-- 🔥 Currently building: **AuraFlow** + automation-based web projects (It is in private i willl keep it in public after the complition)
+- 🔥 Currently building: **AuraFlow** + automation-based web projects *(currently private; will be public after completion)*
 - 🤝 Open to collaborating on: **small open-source projects (consistent contributions)**
 - 🧠 Learning: **React, Backend APIs, Databases, Linux**
 - 💬 Ask me about: **Python tools, GitHub, VMs, beginner web dev**
@@ -56,15 +56,18 @@
 
 ## 📊 GitHub Stats
 
+<!-- NOTE: stats widgets sometimes get rate limited; cache_seconds helps -->
 <p align="center">
-  <img height="160" src="https://github-readme-stats.vercel.app/api?username=Harsha754-ml&show_icons=true&theme=tokyonight&hide_border=true" />
-  <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Harsha754-ml&layout=compact&theme=tokyonight&hide_border=true" />
+  <img height="170" src="https://github-readme-stats.vercel.app/api?username=Harsha754-ml&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github&include_all_commits=true&count_private=true&cache_seconds=1800" />
+</p>
+
+<p align="center">
+  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Harsha754-ml&layout=compact&theme=tokyonight&hide_border=true&cache_seconds=1800" />
 </p>
 
 <p align="center">
   <img src="https://streak-stats.demolab.com?user=Harsha754-ml&theme=tokyonight&hide_border=true" />
 </p>
-
 
 ---
 
