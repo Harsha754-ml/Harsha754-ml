@@ -53,7 +53,7 @@
 ## 🛠 Tech Stack
 
 <p>
-  <img src="https://skillicons.dev/icons?i=python,js,ts,react,nodejs,mongodb,mysql,firebase,git,github,linux,vite,tailwind,ps" />
+  <img src="https://skillicons.dev/icons?i=python,js,ts,react,nodejs,mongodb,mysql,postman,firebase,git,github,linux,vite,tailwind,ps" />
 </p>
 
 ---
@@ -61,17 +61,19 @@
 ## 📊 GitHub Stats
 
 <p align="center">
-  <img height="160" src="https://github-readme-stats-sigma-five.vercel.app/api?username=Harsha754-ml&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github" />
-  <img height="160" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=Harsha754-ml&layout=compact&theme=tokyonight&hide_border=true" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Harsha754-ml&theme=tokyonight" />
+</p>
+<p align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Harsha754-ml&theme=tokyonight" />
 </p>
 
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=Harsha754-ml&theme=tokyonight&hide_border=true" />
-</p>
 
 ---
 
-### ✍️ Quote I like
+## 📈 Contribution Graph
+
 <p align="center">
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Harsha754-ml&theme=tokyo-night&hide_border=true" />
 </p>
+
+---
