@@ -10,9 +10,6 @@
   <a href="https://x.com/hv754">
     <img src="https://img.shields.io/badge/X-000000?style=flat&logo=x&logoColor=white" />
   </a>
-  <a href="mailto:harsha54k@gmail.com">
-    <img src="https://img.shields.io/badge/Personal%20Email-D14836?style=flat&logo=gmail&logoColor=white" />
-  </a>
   <a href="mailto:hv123754@gmail.com">
     <img src="https://img.shields.io/badge/Work%20Email-4285F4?style=flat&logo=gmail&logoColor=white" />
   </a>
