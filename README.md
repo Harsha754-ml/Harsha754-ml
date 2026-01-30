@@ -1,6 +1,7 @@
-<h1 align="center">Hi, I'm Harsha 👋</h1>
+<h1 align="center">Hi, I'm HarsH 👋</h1>
 <p align="center">
-  <b>B.Tech (AIML) • Currently Upgrading My Brain’s Software •</b>
+  <b>B.Tech (AIML) <b/>
+  <b><• Currently Upgrading My Brain’s Software •></b>
 </p>
 
 <p align="center">
@@ -35,7 +36,7 @@
 - **PdfReaper** — PDF tools + automation  
 - **FileHosting** — Self-hosted file server  
 
-> I build fast, break things, fix them, and ship.
+> I build fast, break things, fix them, and if it works i ship it.
 
 ---
 
