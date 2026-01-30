@@ -1,6 +1,6 @@
 <h1 align="center">Hi, I'm Harsha 👋</h1>
 <p align="center">
-  <b>B.Tech (AIML) • Builder Mindset • Web Dev + Automation + AI/ML</b>
+  <b>B.Tech (AIML) • Currently Upgrading My Brain’s Software •</b>
 </p>
 
 <p align="center">
