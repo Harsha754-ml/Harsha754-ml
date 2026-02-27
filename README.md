@@ -1,7 +1,7 @@
 <h1 align="center">Hi, I'm HarsH 👋</h1>
 <p align="center">
-  <b>B.Tech (AIML) <b/>
-  <b><• Currently Upgrading My Brain’s Software •></b>
+  <b>B.Tech (AIML)</b><br/>
+  <b>• Currently Upgrading My Brain’s Software •</b>
 </p>
 
 <p align="center">
@@ -15,7 +15,6 @@
     <img src="https://img.shields.io/badge/Work%20Email-4285F4?style=flat&logo=gmail&logoColor=white" />
   </a>
 </p>
-
 
 ---
 
@@ -36,7 +35,7 @@
 - **MorphStudio** — Vector Redisigning studio  
 - **FileHosting** — Self-hosted file server  
 
-> I build fast, break things, fix them, and if it works i ship it.
+> I build fast, break things, fix them, and if it works I ship it.
 
 ---
 
@@ -44,7 +43,7 @@
 
 **Languages:** Python, JavaScript, C/C++, Java  
 **Web:** React, APIs, Databases (MongoDB/MySQL), Firebase  
-**Tools:** Git, Linux, VMs, Vercel/Netlify  
+**Tools:** Git, Linux, VMs, Vercel/Netlify, AutoHotkey  
 
 ---
 
@@ -56,13 +55,14 @@
   <img src="https://skillicons.dev/icons?i=python,javascript,ts,react,nodejs,html,css,tailwind,vite" />
 </p>
 
-<!-- Databases + Tools -->
+<!-- Tools + Databases -->
 <h3 align="center">🛠 Tools & Databases</h3>
 <p align="center">
   <img src="https://skillicons.dev/icons?i=mongodb,mysql,firebase,git,github,postman,linux,powershell" />
+  <img src="https://cdn.simpleicons.org/autohotkey/334455" height="48" style="vertical-align:middle;" />
 </p>
 
-<!-- AI / ML + Analytics -->
+<!-- AI / ML -->
 <h3 align="center">🤖 AI/ML & Analytics</h3>
 <p align="center">
   <img src="https://skillicons.dev/icons?i=tensorflow,pytorch,opencv" />
