@@ -42,7 +42,7 @@
 ## 🧠 Skills
 
 **Languages:** Python, JavaScript, C/C++, Java  
-**Web:** React, APIs, Databases (MongoDB/MySQL), Firebase  
+**Web:** React, APIs, Databases (MongoDB/MySQL)  
 **Tools:** Git, Linux, VMs, Vercel/Netlify, AutoHotkey  
 
 ---
