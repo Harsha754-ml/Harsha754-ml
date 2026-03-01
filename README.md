@@ -20,7 +20,7 @@
 
 ## 🚀 About Me
 
-- 🔥 Currently building: **AuraFlow** + automation-based web projects *(currently private; will be public after completion)*
+- 🔥 Currently building: **Nexis** + automation-based web projects *(currently private; will be public after completion)*
 - 🤝 Open to collaborating on: **small open-source projects (consistent contributions)**
 - 🧠 Learning: **React, Backend APIs, Databases, Linux**
 - 💬 Ask me about: **Python tools, GitHub, VMs, beginner web dev**
@@ -31,9 +31,9 @@
 ## ⭐ Featured Projects
 
 - **AuraFlow** — File converter + Video Downloader  
-- **VTU Scraper** — Result scraper with manual captcha input  
+- **Nexis** — A Node Based Remote Accessible System  
 - **MorphStudio** — Vector Redisigning studio  
-- **FileHosting** — Self-hosted file server  
+- **Orbit** — Orbit is an adaptive, context-aware OS augmentation layer.  
 
 > I build fast, break things, fix them, and if it works I ship it.
 
