@@ -30,7 +30,7 @@
 
 ## ⭐ Featured Projects
 
-- **AuraFlow** — File converter + Video Downloader  
+- **Securefile-x** — C raylib image encryption tool with reversible pixel shuffling.
 - **Nexis** — A Node Based Remote Accessible System  
 - **MorphStudio** — Vector Redisigning studio  
 - **Orbit** — Orbit is an adaptive, context-aware OS augmentation layer.  
