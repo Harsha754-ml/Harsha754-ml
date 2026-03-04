@@ -1,10 +1,11 @@
-<p align="center">
-<img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=28&duration=2500&pause=1000&color=00F7FF&center=true&vCenter=true&width=600&lines=Builder+of+Strange+Tools;Systems+Tinkerer;Learning+by+Breaking+Things;AIML+Student" />
-</p>
 <h1 align="center">Hi, I'm HarsH 👋</h1>
 <p align="center">
   <b>B.Tech (AIML)</b><br/>
   <b>• Currently Upgrading My Brain’s Software •</b>
+</p>
+
+<p align="center">
+<img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=28&duration=2500&pause=1000&color=00F7FF&center=true&vCenter=true&width=600&lines=Builder+of+Strange+Tools;Systems+Tinkerer;Learning+by+Breaking+Things;AIML+Student" />
 </p>
 
 <p align="center">
