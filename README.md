@@ -80,6 +80,20 @@
 
 ---
 
+## Contribution Graph
+
+<p align="center">
+<img src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake.svg">
+</p>
+
+---
+
+## Activity Graph
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Harsha754-ml&theme=tokyo-night&hide_border=true"/>
+
+---
+
 ## 📊 GitHub Stats
 
 <p align="center">
