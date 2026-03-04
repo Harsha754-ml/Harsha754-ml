@@ -21,6 +21,9 @@
 </p>
 
 ---
+<p align="center">
+<img src="https://komarev.com/ghpvc/?username=Harsha754-ml&color=blueviolet&style=flat-square">
+</p
 
 ## 🚀 About Me
 
