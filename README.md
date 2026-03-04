@@ -52,7 +52,7 @@
 <!-- Dev Stack -->
 <h3 align="center">💻 Development</h3>
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=python,javascript,ts,react,nodejs,html,css,tailwind,vite" />
+  <img src="https://skillicons.dev/icons?i=python,javascript,ts,react,nodejs,html,css,vite" />
 </p>
 
 <!-- Tools + Databases -->
