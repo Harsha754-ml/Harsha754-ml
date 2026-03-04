@@ -42,7 +42,7 @@
 - **MorphStudio** — Vector Redisigning studio  
 - **Orbit** — Orbit is an adaptive, context-aware OS augmentation layer.  
 
-> I build fast, break things, fix them, and if it works I ship it.
+> Build → Break → Understand → Improve
 
 ---
 
