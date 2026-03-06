@@ -107,5 +107,5 @@ Git • Linux • Virtual Machines • Vercel • Netlify • AutoHotkey
 ---
 
 <p align="center">
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Harsha754-ml&theme=tokyonight"/>
+<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExaGJ1N3V6eTRkNGxqOHQ1ZGF1eTRmYWd4b2Q3ZmN1dmF5OGJqdnU4biZlcD12MV9naWZzX3NlYXJjaCZjdD1n/coxQHKASG60HrHtvkt/giphy.gif" width="500"/>
 </p>
