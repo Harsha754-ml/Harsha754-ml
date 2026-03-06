@@ -1,4 +1,5 @@
 <h1 align="center">Hi, I'm HarsH 👋</h1>
+
 <p align="center">
   <b>B.Tech (AIML)</b><br/>
   <b>• Currently Upgrading My Brain’s Software •</b>
@@ -10,75 +11,85 @@
 
 <p align="center">
   <a href="https://linkedin.com/in/katta-harsha-vardhan-475348307">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white" />
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
   </a>
   <a href="https://x.com/hv754">
-    <img src="https://img.shields.io/badge/X-000000?style=flat&logo=x&logoColor=white" />
+    <img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white"/>
   </a>
   <a href="mailto:hv123754@gmail.com">
-    <img src="https://img.shields.io/badge/Work%20Email-4285F4?style=flat&logo=gmail&logoColor=white" />
+    <img src="https://img.shields.io/badge/Work%20Email-4285F4?style=for-the-badge&logo=gmail&logoColor=white"/>
   </a>
 </p>
 
----
 <p align="center">
-<img src="https://komarev.com/ghpvc/?username=Harsha754-ml&color=blueviolet&style=flat-square">
-</p
+  <img src="https://komarev.com/ghpvc/?username=Harsha754-ml&color=blueviolet&style=flat-square">
+</p>
+
+---
 
 ## 🚀 About Me
 
-- 🔥 Currently building: **Nexis** + automation-based web projects *(currently private; will be public after completion)*
-- 🤝 Open to collaborating on: **small open-source projects (consistent contributions)**
-- 🧠 Learning: **React, Backend APIs, Databases, Linux**
-- 💬 Ask me about: **Python tools, GitHub, VMs, beginner web dev**
-- ⚡ Fun fact: I learn the hard way. It sticks.
+* 🔥 Currently building: **Nexis** + automation-based web projects *(currently private; will be public after completion)*
+* 🤝 Open to collaborating on: **small open-source projects (consistent contributions)**
+* 🧠 Learning: **React, Backend APIs, Databases, Linux**
+* 💬 Ask me about: **Python tools, GitHub, VMs, beginner web dev**
+* ⚡ Fun fact: **I learn the hard way. It sticks.**
 
 ---
 
 ## ⭐ Featured Projects
 
-- **Securefile-x** — C raylib image encryption tool with reversible pixel shuffling.
-- **Nexis** — A Node Based Remote Accessible System  
-- **MorphStudio** — Vector Redisigning studio  
-- **Orbit** — Orbit is an adaptive, context-aware OS augmentation layer.  
+| Project          | Description                                                    |
+| ---------------- | -------------------------------------------------------------- |
+| **Securefile-x** | C raylib image encryption tool with reversible pixel shuffling |
+| **Nexis**        | Node-based remote accessible system                            |
+| **MorphStudio**  | Vector redesigning studio                                      |
+| **Orbit**        | Adaptive, context-aware OS augmentation layer                  |
 
-> Build → Break → Understand → Improve
+<p align="center">
+<b>Build → Break → Understand → Improve</b>
+</p>
 
 ---
 
 ## 🧠 Skills
 
-**Languages:** Python, JavaScript, C/C++, Java  
-**Web:** React, APIs, Databases (MongoDB/MySQL)  
-**Tools:** Git, Linux, VMs, Vercel/Netlify, AutoHotkey  
+**Languages**
+Python • JavaScript • C/C++ • Java
+
+**Web Development**
+React • APIs • MongoDB • MySQL
+
+**Tools & Platforms**
+Git • Linux • Virtual Machines • Vercel • Netlify • AutoHotkey
 
 ---
 
 ## ⚒ Tech Stack
 
-<!-- Dev Stack -->
 <h3 align="center">💻 Development</h3>
+
 <p align="center">
   <img src="https://skillicons.dev/icons?i=python,javascript,ts,react,nodejs,html,css,vite" />
 </p>
 
-<!-- Tools + Databases -->
 <h3 align="center">🛠 Tools & Databases</h3>
+
 <p align="center">
   <img src="https://skillicons.dev/icons?i=mongodb,mysql,firebase,git,github,postman,linux,powershell" />
-  <img src="https://cdn.simpleicons.org/autohotkey/334455" height="48" style="vertical-align:middle;" />
+  <img src="https://cdn.simpleicons.org/autohotkey/334455" height="48"/>
 </p>
 
-<!-- AI / ML -->
 <h3 align="center">🤖 AI/ML & Analytics</h3>
+
 <p align="center">
   <img src="https://skillicons.dev/icons?i=tensorflow,pytorch,opencv" />
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white" />
-  <img src="https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black" />
-  <img src="https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white" />
+  <img src="https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black"/>
+  <img src="https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white"/>
 </p>
 
 ---
@@ -87,8 +98,14 @@
 
 <p align="center">
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Harsha754-ml&theme=tokyonight" />
-  <br/>
+</p>
+
+<p align="center">
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Harsha754-ml&theme=tokyonight" />
 </p>
 
 ---
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00F7FF,100:7B00FF&height=120&section=footer"/>
+</p>
