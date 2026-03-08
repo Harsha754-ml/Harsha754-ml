@@ -39,12 +39,16 @@
 
 ## ⭐ Featured Projects
 
+<p align ="center">
+  
 | Project          | Description                                                    |
 | ---------------- | -------------------------------------------------------------- |
 | **Securefile-x** | C raylib image encryption tool with reversible pixel shuffling |
 | **Nexis**        | Node-based remote accessible system                            |
 | **MorphStudio**  | Vector redesigning studio                                      |
 | **Orbit**        | Adaptive, context-aware OS augmentation layer                  |
+
+</p>
 
 <p align="center">
 <b>Build → Break → Understand → Improve</b>
