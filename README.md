@@ -87,7 +87,7 @@ Git • Linux • Virtual Machines • Vercel • Netlify • AutoHotkey
 <h3 align="center">🤖 AI/ML & Analytics</h3>
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=tensorflow,pytorch,opencv" />
+  <img src="https://skillicons.dev/icons?i=pytorch,opencv" />
 </p>
 
 <p align="center">
