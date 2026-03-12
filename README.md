@@ -8,7 +8,6 @@
 <p align="center">
 <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=28&duration=2500&pause=1000&color=00F7FF&center=true&vCenter=true&width=600&lines=Builder+of+Strange+Tools;Systems+Tinkerer;Learning+by+Breaking+Things;AIML+Student" />
 </p>
-
 <p align="center">
   <a href="https://linkedin.com/in/katta-harsha-vardhan-475348307">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
