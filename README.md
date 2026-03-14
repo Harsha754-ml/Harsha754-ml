@@ -42,7 +42,7 @@
   
 | Project          | Description                                                    |
 | ---------------- | -------------------------------------------------------------- |
-| **Securefile-x** | C raylib image encryption tool with reversible pixel shuffling |
+| **Securefile-x** | C raylib image encryption tool with irreversible pixel shuffling |
 | **Nexis**        | Node-based remote accessible system                            |
 | **MorphStudio**  | Vector redesigning studio                                      |
 | **Orbit**        | Adaptive, context-aware OS augmentation layer                  |
