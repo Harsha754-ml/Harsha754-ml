@@ -29,7 +29,7 @@
 ## 🚀 About Me
 
 * 🔥 Currently building: **Nexis** + automation-based web projects *(currently private; will be public after completion)*
-* 🤝 Open to collaborating on: **small open-source projects (consistent contributions)**
+* 🤝 Open to collaborating on: **Start-ups open-source projects (consistent contributions)**
 * 🧠 Learning: **React, Backend APIs, Databases, Linux**
 * 💬 Ask me about: **Python tools, GitHub, VMs, beginner web dev**
 * ⚡ Fun fact: **I learn the hard way. It sticks.**
