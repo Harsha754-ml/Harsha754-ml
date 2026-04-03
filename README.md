@@ -1,110 +1,112 @@
-<h1 align="center">Hi, I'm HarsH 👋</h1>
+<h1 align="center">/harsha</h1>
 
 <p align="center">
-  <b>B.Tech (AIML)</b><br/>
-  <b>• Currently Upgrading My Brain’s Software •</b>
-</p>
-
-<p align="center">
-<img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=28&duration=2500&pause=1000&color=00F7FF&center=true&vCenter=true&width=600&lines=Builder+of+Strange+Tools;Systems+Tinkerer;Learning+by+Breaking+Things;AIML+Student" />
-</p>
-<p align="center">
-  <a href="https://linkedin.com/in/katta-harsha-vardhan-475348307">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
-  </a>
-  <a href="https://x.com/hv754">
-    <img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white"/>
-  </a>
-  <a href="mailto:hv123754@gmail.com">
-    <img src="https://img.shields.io/badge/Work%20Email-4285F4?style=for-the-badge&logo=gmail&logoColor=white"/>
-  </a>
-</p>
-
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=Harsha754-ml&color=blueviolet&style=flat-square">
+  <sub>system booting...</sub>
 </p>
 
 ---
 
-## 🚀 About Me
-
-* 🔥 Currently building: **Nexis** + automation-based web projects *(currently private; will be public after completion)*
-* 🤝 Open to collaborating on: **Start-ups, open-source projects (consistent contributions)**
-* 🧠 Learning: **React, Backend APIs, Databases, Linux**
-* 💬 Ask me about: **Python tools, GitHub, VMs, beginner web dev**
-* ⚡ Fun fact: **I learn the hard way. It sticks.**
-
----
-
-## ⭐ Featured Projects
-
-<p align ="center">
-  
-| Project          | Description                                                    |
-| ---------------- | -------------------------------------------------------------- |
-| **Securefile-x** | C raylib image encryption tool with reversible pixel shuffling |
-| **Nexis**        | Node-based remote accessible system                            |
-| **MorphStudio**  | Vector redesigning studio                                      |
-| **Orbit**        | Adaptive, context-aware OS augmentation layer                  |
-
-</p>
-
-<p align="center">
-<b>Build → Break → Understand → Improve</b>
-</p>
+```bash id="bootseq"
+> initializing identity...
+> loading modules...
+> checking failures...
+> system ready
+```
 
 ---
 
-## 🧠 Skills
+## instance.info
 
-**Languages**
-Python • JavaScript • C/C++ • Java
-
-**Web Development**
-React • APIs • MongoDB • MySQL
-
-**Tools & Platforms**
-Git • Linux • Virtual Machines • Vercel • Netlify • AutoHotkey
-
----
-
-## ⚒ Tech Stack
-
-<h3 align="center">💻 Development</h3>
-
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=python,javascript,ts,react,nodejs,html,css,vite" />
-</p>
-
-<h3 align="center">🛠 Tools & Databases</h3>
-
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=mongodb,mysql,firebase,git,github,postman,linux,powershell" />
-  <img src="https://cdn.simpleicons.org/autohotkey/334455" height="48"/>
-</p>
-
-<h3 align="center">🤖 AI/ML & Analytics</h3>
-
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=pytorch,opencv" />
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black"/>
-  <img src="https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white"/>
-</p>
+```json id="meta"
+{
+  "name": "Harsha",
+  "role": "AIML Student",
+  "mode": "learn → break → rebuild",
+  "focus": ["systems", "automation", "backend"],
+  "status": "building quietly"
+}
+```
 
 ---
 
-## 📊 GitHub Stats
+## active.modules
+
+```txt id="modules"
+[✓] Securefile-x   → image encryption engine
+[~] Nexis          → remote modular system (in progress)
+[~] Orbit          → OS augmentation layer (experimental)
+[✓] MorphStudio    → vector transformation tool
+```
+
+---
+
+## system.behavior
+
+* prefers automation over repetition
+* trusts failure over tutorials
+* optimizes for long-term understanding
+
+---
+
+## stack.loadout
+
+```yaml id="stack"
+languages:
+  - python
+  - javascript
+  - c/c++
+  - java
+
+systems:
+  - linux
+  - virtual-machines
+
+development:
+  - react
+  - nodejs
+  - apis
+
+data:
+  - mongodb
+  - mysql
+
+ml:
+  - pytorch
+  - opencv
+```
+
+---
+
+## runtime.log
+
+```diff id="logs"
++ built tools that broke more than expected
++ learned why they broke
++ rebuilt them better
+
+- still hates repetitive workflows
+```
+
+---
+
+## external.links
 
 <p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Harsha754-ml&theme=tokyonight" />
+  <a href="https://linkedin.com/in/katta-harsha-vardhan-475348307">linkedin</a> /
+  <a href="https://x.com/hv754">x</a> /
+  <a href="mailto:hv123754@gmail.com">mail</a>
 </p>
+
+---
+
+## system.metrics (Because number)
 
 <p align="center">
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Harsha754-ml&theme=tokyonight" />
 </p>
 
+---
 
+<p align="center">
+  <sub>process never exits.</sub>
+</p>
