@@ -1,7 +1,7 @@
 <h1 align="center">/harsha</h1>
 
 <p align="center">
-  <sub>system booting...</sub>
+  <sub>system booting....</sub>
 </p>
 
 ---
