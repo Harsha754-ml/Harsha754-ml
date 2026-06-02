@@ -1,4 +1,4 @@
-<h1 align="center">/harsha</h1>
+<h1 align="center">/HarsH</h1>
 
 <p align="center">
   <sub>system booting....</sub>
