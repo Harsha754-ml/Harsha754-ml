@@ -105,6 +105,6 @@ systems:      [linux, virtual-machines]
 
 ## external.links
 
-[![npm](https://img.shields.io/badge/@harshakatta/termnav-CB3837?style=flat-square&logo=npm&logoColor=white)](https://www.npmjs.com/package/@harshakatta/termnav)
+[![npm](https://img.shields.io/badge/@harshakatta/termnav-CB3837?style=flat-square&logo=npm&logoColor=white)](https://www.npmjs.com/package/@harshakatta/)
 [![GitHub](https://img.shields.io/badge/Harsha754--ml-181717?style=flat-square&logo=github)](https://github.com/Harsha754-ml)
 [![LinkedIn](https://img.shields.io/badge/connect-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/YOUR_HANDLE)
