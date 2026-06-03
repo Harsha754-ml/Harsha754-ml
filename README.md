@@ -1,4 +1,4 @@
-```markdown
+
 <!--
   You read source comments.
   That's either a good sign or a concerning one.
