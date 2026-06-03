@@ -28,8 +28,6 @@ The distinction matters more than it probably should.
 ---
 
 ## The actual process
-
-```
 encounter thing
 → does not make sense
 → build smaller version
@@ -38,7 +36,6 @@ encounter thing
 → now it makes sense
 → rebuild correctly
 → find next thing
-```
 
 ---
 
