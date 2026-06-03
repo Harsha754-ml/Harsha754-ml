@@ -1,109 +1,33 @@
-<h1 align="center">/HarsH</h1>
-
-<p align="center">
-  <sub>system booting....</sub>
-</p>
+```markdown
+# field notes — harsha
 
 ---
 
-```bash
-> initializing identity...
-> loading modules...
-> checking failures...
-> system ready
+Things I've shipped:
+
+**[TermNav](https://npmjs.com/package/termnav)** — keyboard-driven terminal navigation. on npm.  
+**SecureFile-X** — file and image encryption. because privacy shouldn't require a PhD.  
+**MorphStudio** — graphics and vector experiments. still not sure where this one ends.  
+**Nexis** — poking at distributed systems. mostly questions, some answers.  
+**Orbit** — an OS that probably shouldn't exist. exists anyway.
+
+---
+
+I build things to understand them.  
+Sometimes I break them first.  
+That's not a mistake. That's the method.
+
+---
+
+Current surface area: ML systems · Linux internals · automation · developer tooling · full-stack · graphics  
+
+Interests that don't fit neatly: how things fail · why abstractions leak · systems that behave unexpectedly
+
+---
+
+AIML undergrad. The ML is less interesting to me than the infrastructure holding it up.
+
+---
+
+*This file last updated when something was worth updating.*
 ```
-
-## instance.info
-
-```json
-{
-  "name": "Harsha",
-  "role": "Developer & AIML Student",
-  "mode": "learn → break → rebuild",
-  "focus": ["systems", "ml", "full-stack"],
-  "status": "building quietly"
-}
-```
-
----
-
-## deployed.artifacts
-
-### TermNav &nbsp; ![npm](https://img.shields.io/badge/npm-published-CB3837?style=flat-square&logo=npm&logoColor=white)
-
-Terminal navigation utility. Kills directory traversal friction with keyboard-driven interactive selection.
-
-```bash
-npm install -g @harshakatta/termnav
-```
-
-`cli` &nbsp; `terminal` &nbsp; `navigation` &nbsp; `open-source` &nbsp; → [github.com/Harsha754-ml/TermNav](https://github.com/Harsha754-ml/TermNav)
-
----
-
-### SecureFile-X
-
-Image encryption engine focused on secure file transformation. No bloat.
-
-`encryption` &nbsp; `security` &nbsp; `files`
-
----
-
-### MorphStudio
-
-Vector transformation and graphics experimentation tool.
-
-`graphics` &nbsp; `vectors`
-
----
-
-### Nexis &nbsp; `in development`
-
-Remote modular system architecture.
-
-### Orbit &nbsp; `research phase`
-
-OS augmentation experiments.
-
----
-
-## system.behavior
-
-```
-— prefers automation over repetition
-— trusts failure over tutorials
-— optimizes for long-term understanding
-```
-
----
-
-## stack.loadout
-
-```yaml
-languages:    [python, javascript, dart, c/c++]
-ml:           [pytorch, opencv]
-development:  [react, next.js, flutter, fastapi]
-data:         [mongodb, postgresql]
-systems:      [linux, virtual-machines]
-```
-
----
-
-## runtime.log
-
-```diff
-+ built tools that broke more than expected
-+ learned why they broke
-+ rebuilt them better
-+ published npm packages
-+ shipped across mobile, web, and ml pipelines
-
-- still hates repetitive workflows
-```
-
----
-
-## external.links
-
-[![GitHub](https://img.shields.io/badge/Harsha754--ml-181717?style=flat-square&logo=github)](https://github.com/Harsha754-ml)
-[![LinkedIn](https://img.shields.io/badge/connect-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/YOUR_HANDLE)
