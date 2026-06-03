@@ -5,6 +5,8 @@
   Probably both.
 -->
 
+![](./banner.svg)
+
 # Harsha
 
 Not a student who codes.  
@@ -28,20 +30,25 @@ The distinction matters more than it probably should.
 ---
 
 ## The actual process
-encounter thing
-→ does not make sense
-→ build smaller version
-→ still does not make sense  
-→ break it on purpose
-→ now it makes sense
-→ rebuild correctly
-→ find next thing
+
+encounter thing → does not make sense  
+→ build smaller version → still does not make sense  
+→ break it on purpose → now it makes sense  
+→ rebuild correctly → find next thing
 
 ---
 
 ## Current surface
 
-`linux` · `systems` · `machine learning` · `opencv` · `flutter` · `full-stack` · `graphics` · `cli tooling` · `automation`
+![linux](https://img.shields.io/badge/linux-%23FCC624?style=flat&logo=linux&logoColor=black)
+![systems](https://img.shields.io/badge/systems-%230d1117?style=flat&logoColor=white)
+![machine learning](https://img.shields.io/badge/machine%20learning-%23FF6F00?style=flat&logo=pytorch&logoColor=white)
+![opencv](https://img.shields.io/badge/opencv-%235C3EE8?style=flat&logo=opencv&logoColor=white)
+![flutter](https://img.shields.io/badge/flutter-%2302569B?style=flat&logo=flutter&logoColor=white)
+![full-stack](https://img.shields.io/badge/full--stack-%23000000?style=flat&logoColor=white)
+![graphics](https://img.shields.io/badge/graphics-%23FF4088?style=flat&logoColor=white)
+![cli tooling](https://img.shields.io/badge/cli%20tooling-%2300C7B7?style=flat&logoColor=white)
+![automation](https://img.shields.io/badge/automation-%236DB33F?style=flat&logoColor=white)
 
 ---
 
@@ -53,7 +60,7 @@ Why some abstractions hold and others leak immediately.
 
 ---
 
-*AIML undergraduating, unfortunatly.gathering dust on coursework, busy on experiments.*  
+*AIML undergrad, unfortunately. Gathering dust on coursework, busy on experiments.*  
 *First thing that felt real: shipping TermNav to npm.*  
 *Still chasing that feeling.*
 ```
