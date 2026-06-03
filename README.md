@@ -1,49 +1,62 @@
 ```markdown
-<!-- 
-  You found this.
-  Most people don't read source comments.
-  You might be the kind of person this page is for.
+<!--
+  You read source comments.
+  That's either a good sign or a concerning one.
+  Probably both.
 -->
 
 # Harsha
 
-I learn by building things that probably shouldn't work,  
-then figuring out why they do.
+Not a student who codes.  
+A person who builds things to understand them —  
+then breaks them to understand them better.
+
+The distinction matters more than it probably should.
 
 ---
 
-## Specimens
+## Active Experiments
 
-| name | what it actually is |
+| codename | what's actually happening |
 |---|---|
-| **TermNav** | keyboard-first terminal navigation · [npm](https://npmjs.com/package/termnav) |
-| **SecureFile-X** | file + image encryption that doesn't trust you to remember passwords |
-| **MorphStudio** | a graphics experiment that became a tool before I noticed |
-| **Nexis** | distributed systems, because one machine is never enough |
-| **Orbit** | an operating system. yes, from scratch. no, it's not done. |
+| **TermNav** | keyboard-driven terminal navigation · published · [npm](https://npmjs.com/package/termnav) |
+| **SecureFile-X** | file + image encryption · distrust is a feature |
+| **MorphStudio** | graphics and vector work · started as curiosity · became a tool |
+| **Nexis** | distributed systems · one machine was not enough |
+| **Orbit** | operating system · from scratch · ongoing · probably never "done" |
 
 ---
 
-## Current unknowns I'm making known
+## The actual process
 
-- how OS schedulers actually decide what runs next  
-- where ML ends and systems engineering begins  
-- whether automation is laziness or discipline (yes)
-
----
-
-## Surface area
-
-`systems` `linux` `machine learning` `full-stack` `graphics` `developer tools` `automation`
-
----
-
-> "The map is not the territory.  
-> But a good map helps you find where the territory is wrong."
-
-— something I think about more than I should
+```
+encounter thing
+→ does not make sense
+→ build smaller version
+→ still does not make sense  
+→ break it on purpose
+→ now it makes sense
+→ rebuild correctly
+→ find next thing
+```
 
 ---
 
-*AIML undergrad. Builder. Occasionally right.*
+## Current surface
+
+`linux` · `systems` · `machine learning` · `opencv` · `flutter` · `full-stack` · `graphics` · `cli tooling` · `automation`
+
+---
+
+## What I'm trying to figure out right now
+
+Where ML ends and systems engineering begins.  
+How schedulers decide what runs next.  
+Why some abstractions hold and others leak immediately.
+
+---
+
+*AIML undergraduating, unfortunatly.gathering dust on coursework, busy on experiments.*  
+*First thing that felt real: shipping TermNav to npm.*  
+*Still chasing that feeling.*
 ```
