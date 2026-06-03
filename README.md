@@ -51,6 +51,7 @@ encounter thing → does not make sense
 ![automation](https://img.shields.io/badge/automation-%236DB33F?style=flat&logoColor=white)
 
 ---
+---
 
 ## What I'm trying to figure out right now
 
