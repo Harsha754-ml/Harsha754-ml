@@ -5,7 +5,7 @@
   Probably both.
 -->
 
-![](./banner.svg)
+![banner](https://raw.githubusercontent.com/Harsha754-ml/Harsha754-ml/main/banner.svg)
 
 # Harsha
 
