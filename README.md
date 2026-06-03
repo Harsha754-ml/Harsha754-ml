@@ -1,33 +1,49 @@
 ```markdown
-# field notes — harsha
+<!-- 
+  You found this.
+  Most people don't read source comments.
+  You might be the kind of person this page is for.
+-->
+
+# Harsha
+
+I learn by building things that probably shouldn't work,  
+then figuring out why they do.
 
 ---
 
-Things I've shipped:
+## Specimens
 
-**[TermNav](https://npmjs.com/package/termnav)** — keyboard-driven terminal navigation. on npm.  
-**SecureFile-X** — file and image encryption. because privacy shouldn't require a PhD.  
-**MorphStudio** — graphics and vector experiments. still not sure where this one ends.  
-**Nexis** — poking at distributed systems. mostly questions, some answers.  
-**Orbit** — an OS that probably shouldn't exist. exists anyway.
-
----
-
-I build things to understand them.  
-Sometimes I break them first.  
-That's not a mistake. That's the method.
+| name | what it actually is |
+|---|---|
+| **TermNav** | keyboard-first terminal navigation · [npm](https://npmjs.com/package/termnav) |
+| **SecureFile-X** | file + image encryption that doesn't trust you to remember passwords |
+| **MorphStudio** | a graphics experiment that became a tool before I noticed |
+| **Nexis** | distributed systems, because one machine is never enough |
+| **Orbit** | an operating system. yes, from scratch. no, it's not done. |
 
 ---
 
-Current surface area: ML systems · Linux internals · automation · developer tooling · full-stack · graphics  
+## Current unknowns I'm making known
 
-Interests that don't fit neatly: how things fail · why abstractions leak · systems that behave unexpectedly
-
----
-
-AIML undergrad. The ML is less interesting to me than the infrastructure holding it up.
+- how OS schedulers actually decide what runs next  
+- where ML ends and systems engineering begins  
+- whether automation is laziness or discipline (yes)
 
 ---
 
-*This file last updated when something was worth updating.*
+## Surface area
+
+`systems` `linux` `machine learning` `full-stack` `graphics` `developer tools` `automation`
+
+---
+
+> "The map is not the territory.  
+> But a good map helps you find where the territory is wrong."
+
+— something I think about more than I should
+
+---
+
+*AIML undergrad. Builder. Occasionally right.*
 ```
