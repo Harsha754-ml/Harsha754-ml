@@ -18,6 +18,15 @@ then breaks them to understand them better.
 The distinction matters more than it probably should.
 
 ---
+## Explore Moreee
+
+
+Explore projects, experiments, and write-ups.
+
+🌐 **Portfolio:** [Link](https://kattaharsha.dev)
+
+
+---
 
 ## Active Experiments
 
