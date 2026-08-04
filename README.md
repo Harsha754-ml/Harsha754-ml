@@ -7,7 +7,7 @@
 
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Harsha754-ml/Harsha754-ml/main/banner.svg" alt="Harsha banner" width="100%" />
+  <img src="https://raw.githubusercontent.com/Harsha754-ml/Harsha754-ml/main/banner.svg" alt="HarsH" width="100%" />
 </p>
 
 
