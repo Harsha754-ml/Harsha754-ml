@@ -1,77 +1,73 @@
-
 <!--
   You read source comments.
   That's either a good sign or a concerning one.
   Probably both.
 -->
 
-
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Harsha754-ml/Harsha754-ml/main/banner.svg" alt="HarsH" width="100%" />
+  <img src="./banner.svg" alt="Harsha — field notes active" width="100%" />
 </p>
 
+<p align="center">
+  Not a student who codes.<br>
+  A person who builds things to understand them — then breaks them to understand them better.
+</p>
 
-Not a student who codes.  
-A person who builds things to understand them —  
-then breaks them to understand them better.
-
-The distinction matters more than it probably should.
-
----
-## Explore Moreee
-
-
-Explore projects, experiments, and write-ups.
-
-🌐 **Portfolio:** [Link](https://kattaharsha.dev)
-
+<p align="center">
+  <a href="https://kattaharsha.dev">Portfolio</a>
+  &nbsp;·&nbsp;
+  <a href="#active-experiments">Experiments</a>
+  &nbsp;·&nbsp;
+  <a href="#current-questions">Current questions</a>
+</p>
 
 ---
 
-## Active Experiments
+## Active experiments
 
-| codename | what's actually happening |
-|---|---|
-| **TermNav** | keyboard-driven terminal navigation · published · [npm](https://npmjs.com/package/termnav) |
-| **SecureFile-X** | file + image encryption · distrust is a feature |
-| **MorphStudio** | graphics and vector work · started as curiosity · became a tool |
-| **Nexis** | distributed systems · one machine was not enough |
-| **Orbit** | operating system · from scratch · ongoing · probably never "done" |
+| Project | In practice | State |
+| :-- | :-- | :-- |
+| [**TermNav**](https://npmjs.com/package/termnav) | Keyboard-driven terminal navigation | `published` |
+| **SecureFile-X** | File and image encryption | `distrust is a feature` |
+| **MorphStudio** | Graphics and vector work that outgrew a curiosity | `evolving` |
+| **Nexis** | Distributed systems, because one machine was not enough | `in progress` |
+| **Orbit** | An operating system from scratch | `ongoing · probably never done` |
 
----
+## Operating loop
 
-## The actual process
+```text
+encounter something confusing
+        ↓
+build the smallest version of it
+        ↓
+break it on purpose
+        ↓
+understand the failure
+        ↓
+rebuild it properly
+        ↓
+find the next confusing thing
+```
 
-encounter thing → does not make sense  
-→ build smaller version → still does not make sense  
-→ break it on purpose → now it makes sense  
-→ rebuild correctly → find next thing
+## Current questions
 
----
+- Where machine learning ends and systems engineering begins.
+- How schedulers decide what deserves to run next.
+- Why some abstractions hold — and others leak immediately.
 
 ## Current surface
 
-![linux](https://img.shields.io/badge/linux-%23FCC624?style=flat&logo=linux&logoColor=black)
-![systems](https://img.shields.io/badge/systems-%230d1117?style=flat&logoColor=white)
-![machine learning](https://img.shields.io/badge/machine%20learning-%23FF6F00?style=flat&logo=pytorch&logoColor=white)
-![opencv](https://img.shields.io/badge/opencv-%235C3EE8?style=flat&logo=opencv&logoColor=white)
-![flutter](https://img.shields.io/badge/flutter-%2302569B?style=flat&logo=flutter&logoColor=white)
-![full-stack](https://img.shields.io/badge/full--stack-%23000000?style=flat&logoColor=white)
-![graphics](https://img.shields.io/badge/graphics-%23FF4088?style=flat&logoColor=white)
-![cli tooling](https://img.shields.io/badge/cli%20tooling-%2300C7B7?style=flat&logoColor=white)
-![automation](https://img.shields.io/badge/automation-%236DB33F?style=flat&logoColor=white)
+<p>
+  <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=111827" alt="Linux">
+  <img src="https://img.shields.io/badge/Systems-0D1117?style=flat-square&logoColor=white" alt="Systems">
+  <img src="https://img.shields.io/badge/Machine%20Learning-FF6F00?style=flat-square&logo=pytorch&logoColor=white" alt="Machine Learning">
+  <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white" alt="OpenCV">
+  <img src="https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white" alt="Flutter">
+  <img src="https://img.shields.io/badge/Graphics-FF4088?style=flat-square&logoColor=white" alt="Graphics">
+  <img src="https://img.shields.io/badge/CLI%20Tooling-00A896?style=flat-square&logoColor=white" alt="CLI tooling">
+  <img src="https://img.shields.io/badge/Automation-6DB33F?style=flat-square&logoColor=white" alt="Automation">
+</p>
 
 ---
 
-## What I'm trying to figure out right now
-
-Where ML ends and systems engineering begins.  
-How schedulers decide what runs next.  
-Why some abstractions hold and others leak immediately.
-
----
-
-*AIML undergrad, unfortunately. Gathering dust on coursework, busy on experiments.*  
-*First thing that felt real: shipping TermNav to npm.*  
-*Still chasing that feeling.*
-```
+<sub>AIML undergrad. Coursework gathers dust; experiments do not. The first thing that felt real was shipping TermNav to npm — still chasing that feeling.</sub>
