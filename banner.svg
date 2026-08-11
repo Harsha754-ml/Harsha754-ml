@@ -1,83 +1,97 @@
 <svg
   width="1200"
-  height="1700"
-  viewBox="0 0 1200 1700"
+  height="1850"
+  viewBox="0 0 1200 1850"
   fill="none"
   xmlns="http://www.w3.org/2000/svg"
   role="img"
   aria-labelledby="title desc"
 >
-  <title id="title">Harsha — Field Notes Active</title>
+  <title id="title">Harsha — Developer Field Console</title>
   <desc id="desc">
-    Technical profile README for Harsha, an AIML undergraduate who builds
-    systems, experiments with machine learning, graphics, CLI tooling,
-    automation and operating systems.
+    Harsha's developer profile, experiments, systems interests,
+    operating philosophy, and technical surface.
   </desc>
 
   <defs>
 
     <!-- =========================================================
-         BACKGROUND
+         CORE PALETTE
     ========================================================== -->
 
     <linearGradient
-      id="background"
+      id="bg"
       x1="0"
       y1="0"
       x2="1200"
-      y2="1700"
+      y2="1850"
       gradientUnits="userSpaceOnUse"
     >
-      <stop offset="0" stop-color="#0D1624"/>
-      <stop offset=".45" stop-color="#090E17"/>
-      <stop offset="1" stop-color="#060A10"/>
+      <stop offset="0" stop-color="#0B1420"/>
+      <stop offset=".42" stop-color="#080D15"/>
+      <stop offset="1" stop-color="#05080D"/>
     </linearGradient>
 
     <radialGradient
-      id="blueBloom"
+      id="heroGlow"
       cx="0"
       cy="0"
       r="1"
-      gradientTransform="translate(920 280) rotate(141) scale(500 400)"
+      gradientTransform="translate(885 150) rotate(135) scale(430 330)"
       gradientUnits="userSpaceOnUse"
     >
-      <stop stop-color="#2387FF" stop-opacity=".18"/>
-      <stop offset="1" stop-color="#2387FF" stop-opacity="0"/>
+      <stop stop-color="#2479E8" stop-opacity=".20"/>
+      <stop offset=".45" stop-color="#2479E8" stop-opacity=".07"/>
+      <stop offset="1" stop-color="#2479E8" stop-opacity="0"/>
     </radialGradient>
 
     <radialGradient
-      id="bottomBloom"
+      id="lowerGlow"
       cx="0"
       cy="0"
       r="1"
-      gradientTransform="translate(300 1450) rotate(20) scale(500 300)"
+      gradientTransform="translate(330 1420) rotate(-25) scale(430 280)"
       gradientUnits="userSpaceOnUse"
     >
-      <stop stop-color="#2387FF" stop-opacity=".08"/>
-      <stop offset="1" stop-color="#2387FF" stop-opacity="0"/>
+      <stop stop-color="#1674DF" stop-opacity=".09"/>
+      <stop offset="1" stop-color="#1674DF" stop-opacity="0"/>
     </radialGradient>
 
-    <!-- =========================================================
-         ACCENTS
-    ========================================================== -->
-
-    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
-      <stop stop-color="#58A6FF"/>
-      <stop offset=".5" stop-color="#A5D6FF"/>
-      <stop offset="1" stop-color="#58A6FF"/>
+    <linearGradient
+      id="blueText"
+      x1="0"
+      y1="0"
+      x2="1"
+      y2="0"
+    >
+      <stop stop-color="#4EA1FF"/>
+      <stop offset=".5" stop-color="#B4DDFF"/>
+      <stop offset="1" stop-color="#4EA1FF"/>
     </linearGradient>
 
-    <linearGradient id="accentSoft" x1="0" y1="0" x2="1" y2="0">
-      <stop stop-color="#58A6FF" stop-opacity=".7"/>
-      <stop offset="1" stop-color="#79C0FF" stop-opacity=".1"/>
+    <linearGradient
+      id="lineBlue"
+      x1="0"
+      y1="0"
+      x2="1"
+      y2="0"
+    >
+      <stop stop-color="#4EA1FF"/>
+      <stop offset="1" stop-color="#4EA1FF" stop-opacity="0"/>
     </linearGradient>
 
-    <linearGradient id="scan" x1="0" y1="0" x2="1" y2="0">
-      <stop stop-color="#58A6FF" stop-opacity="0"/>
-      <stop offset=".45" stop-color="#79C0FF" stop-opacity=".03"/>
-      <stop offset=".5" stop-color="#B6E3FF" stop-opacity=".4"/>
-      <stop offset=".55" stop-color="#79C0FF" stop-opacity=".03"/>
-      <stop offset="1" stop-color="#58A6FF" stop-opacity="0"/>
+    <linearGradient
+      id="scanGradient"
+      x1="0"
+      y1="0"
+      x2="1"
+      y2="0"
+    >
+      <stop stop-color="#4EA1FF" stop-opacity="0"/>
+      <stop offset=".46" stop-color="#4EA1FF" stop-opacity=".02"/>
+      <stop offset=".5" stop-color="#BFE4FF" stop-opacity=".38"/>
+      <stop offset=".54" stop-color="#4EA1FF" stop-opacity=".02"/>
+      <stop offset="1" stop-color="#4EA1FF" stop-opacity="0"/>
     </linearGradient>
 
     <!-- =========================================================
@@ -85,33 +99,40 @@
     ========================================================== -->
 
     <pattern
-      id="microGrid"
-      width="24"
-      height="24"
+      id="grid"
+      width="30"
+      height="30"
       patternUnits="userSpaceOnUse"
     >
       <path
-        d="M24 0H0V24"
-        stroke="#79C0FF"
-        stroke-opacity=".04"
-        stroke-width=".7"
+        d="M30 0H0V30"
+        stroke="#7EBFFF"
+        stroke-opacity=".035"
+        stroke-width="1"
       />
+    </pattern>
 
+    <pattern
+      id="dots"
+      width="28"
+      height="28"
+      patternUnits="userSpaceOnUse"
+    >
       <circle
         cx="2"
         cy="2"
-        r=".8"
-        fill="#79C0FF"
-        fill-opacity=".08"
+        r=".7"
+        fill="#75B9FF"
+        fill-opacity=".06"
       />
     </pattern>
 
     <!-- =========================================================
-         GLOWS
+         FILTERS
     ========================================================== -->
 
     <filter
-      id="softGlow"
+      id="glow"
       x="-100%"
       y="-100%"
       width="300%"
@@ -119,17 +140,16 @@
     >
       <feGaussianBlur
         stdDeviation="4"
-        result="blur"
+        result="b"
       />
-
       <feMerge>
-        <feMergeNode in="blur"/>
+        <feMergeNode in="b"/>
         <feMergeNode in="SourceGraphic"/>
       </feMerge>
     </filter>
 
     <filter
-      id="smallGlow"
+      id="tinyGlow"
       x="-100%"
       y="-100%"
       width="300%"
@@ -137,201 +157,145 @@
     >
       <feGaussianBlur
         stdDeviation="2"
-        result="blur"
+        result="b"
       />
-
       <feMerge>
-        <feMergeNode in="blur"/>
+        <feMergeNode in="b"/>
         <feMergeNode in="SourceGraphic"/>
       </feMerge>
     </filter>
 
     <filter
-      id="titleShadow"
+      id="shadow"
       x="-20%"
-      y="-30%"
-      width="150%"
-      height="180%"
+      y="-20%"
+      width="140%"
+      height="160%"
     >
       <feDropShadow
         dx="0"
-        dy="5"
-        stdDeviation="5"
-        flood-color="#000"
+        dy="7"
+        stdDeviation="7"
+        flood-color="#000000"
         flood-opacity=".7"
       />
     </filter>
 
-    <!-- =========================================================
-         CLIP
-    ========================================================== -->
-
-    <clipPath id="pageClip">
+    <clipPath id="clip">
       <rect
         x="0"
         y="0"
         width="1200"
-        height="1700"
+        height="1850"
         rx="18"
       />
     </clipPath>
 
     <!-- =========================================================
-         ANIMATIONS
+         TYPOGRAPHY
     ========================================================== -->
 
     <style>
 
+      .mono {
+        font-family:
+          "JetBrains Mono",
+          "SFMono-Regular",
+          Consolas,
+          "Liberation Mono",
+          monospace;
+      }
+
+      .sans {
+        font-family:
+          "Inter",
+          "Segoe UI",
+          Arial,
+          sans-serif;
+      }
+
+      .fadeIn {
+        animation:
+          fadeIn
+          .9s
+          ease-out
+          .1s
+          both;
+      }
+
+      .heroIn {
+        animation:
+          heroIn
+          1s
+          cubic-bezier(.16,1,.3,1)
+          both;
+      }
+
       .scan {
         animation:
-          sweep
+          scan
           7s
           cubic-bezier(.4,0,.2,1)
           infinite;
       }
 
-      .particle-a {
+      .blink {
         animation:
-          floatA
-          7s
+          blink
+          2s
           ease-in-out
           infinite;
-      }
-
-      .particle-b {
-        animation:
-          floatB
-          9s
-          ease-in-out
-          infinite;
-      }
-
-      .particle-c {
-        animation:
-          floatA
-          6s
-          ease-in-out
-          1.5s
-          infinite
-          reverse;
       }
 
       .pulse {
-        transform-origin: 1000px 145px;
         animation:
           pulse
-          3s
+          2.8s
           ease-out
           infinite;
       }
 
-      .pulse-delay {
-        transform-origin: 1000px 145px;
+      .pulse2 {
         animation:
           pulse
-          3s
+          2.8s
           ease-out
-          1.5s
+          1.4s
           infinite;
       }
 
-      .orbit-a {
-        transform-origin: 1000px 145px;
+      .orbit {
+        transform-origin: 1000px 165px;
         animation:
           orbit
-          15s
+          13s
           linear
           infinite;
       }
 
-      .orbit-b {
-        transform-origin: 1000px 145px;
+      .orbitReverse {
+        transform-origin: 1000px 165px;
         animation:
           orbitReverse
-          10s
+          9s
           linear
           infinite;
       }
 
-      .title {
+      .float1 {
         animation:
-          titleIn
-          .9s
-          cubic-bezier(.16,1,.3,1)
-          .1s
-          both;
+          float1
+          8s
+          ease-in-out
+          infinite;
       }
 
-      .fade {
+      .float2 {
         animation:
-          fadeIn
-          1s
-          ease-out
-          .2s
-          both;
-      }
-
-      @keyframes sweep {
-
-        0%, 12% {
-          transform: translateX(-1400px);
-          opacity: 0;
-        }
-
-        20% {
-          opacity: 1;
-        }
-
-        75% {
-          opacity: .8;
-        }
-
-        88%, 100% {
-          transform: translateX(1400px);
-          opacity: 0;
-        }
-      }
-
-      @keyframes orbit {
-        to {
-          transform: rotate(360deg);
-        }
-      }
-
-      @keyframes orbitReverse {
-        to {
-          transform: rotate(-360deg);
-        }
-      }
-
-      @keyframes pulse {
-
-        0% {
-          transform: scale(.7);
-          opacity: .4;
-        }
-
-        80%, 100% {
-          transform: scale(1.3);
-          opacity: 0;
-        }
-      }
-
-      @keyframes titleIn {
-
-        from {
-          transform:
-            translateY(18px)
-            scale(.97);
-          opacity: 0;
-        }
-
-        to {
-          transform:
-            translateY(0)
-            scale(1);
-          opacity: 1;
-        }
+          float2
+          10s
+          ease-in-out
+          infinite;
       }
 
       @keyframes fadeIn {
@@ -345,29 +309,105 @@
         }
       }
 
-      @keyframes floatA {
+      @keyframes heroIn {
 
-        0%,100% {
-          transform: translate(0,0);
-          opacity: .15;
+        from {
+          transform:
+            translateY(22px)
+            scale(.98);
+          opacity: 0;
         }
 
-        50% {
-          transform: translate(14px,-9px);
-          opacity: .45;
+        to {
+          transform:
+            translateY(0)
+            scale(1);
+          opacity: 1;
         }
       }
 
-      @keyframes floatB {
+      @keyframes scan {
+
+        0%, 10% {
+          transform: translateX(-1600px);
+          opacity: 0;
+        }
+
+        20% {
+          opacity: 1;
+        }
+
+        74% {
+          opacity: .85;
+        }
+
+        87%, 100% {
+          transform: translateX(1600px);
+          opacity: 0;
+        }
+      }
+
+      @keyframes blink {
+
+        0%, 40% {
+          opacity: 1;
+        }
+
+        50%, 90% {
+          opacity: .25;
+        }
+
+        100% {
+          opacity: 1;
+        }
+      }
+
+      @keyframes pulse {
+
+        0% {
+          transform: scale(.65);
+          opacity: .4;
+        }
+
+        80%,100% {
+          transform: scale(1.25);
+          opacity: 0;
+        }
+      }
+
+      @keyframes orbit {
+
+        to {
+          transform: rotate(360deg);
+        }
+      }
+
+      @keyframes orbitReverse {
+
+        to {
+          transform: rotate(-360deg);
+        }
+      }
+
+      @keyframes float1 {
 
         0%,100% {
           transform: translate(0,0);
-          opacity: .1;
         }
 
         50% {
-          transform: translate(-15px,9px);
-          opacity: .35;
+          transform: translate(12px,-8px);
+        }
+      }
+
+      @keyframes float2 {
+
+        0%,100% {
+          transform: translate(0,0);
+        }
+
+        50% {
+          transform: translate(-14px,8px);
         }
       }
 
@@ -379,469 +419,491 @@
 
       }
 
-      .mono {
-        font-family:
-          "JetBrains Mono",
-          "SFMono-Regular",
-          Consolas,
-          "Liberation Mono",
-          monospace;
-      }
-
-      .sans {
-        font-family:
-          "Trebuchet MS",
-          Arial,
-          sans-serif;
-      }
-
     </style>
 
   </defs>
 
 
   <!-- =========================================================
-       PAGE
+       CANVAS
   ========================================================== -->
 
-  <g clip-path="url(#pageClip)">
-
-    <!-- Background -->
+  <g clip-path="url(#clip)">
 
     <rect
       width="1200"
-      height="1700"
-      fill="url(#background)"
+      height="1850"
+      fill="url(#bg)"
     />
 
     <rect
       width="1200"
-      height="1700"
-      fill="url(#blueBloom)"
+      height="1850"
+      fill="url(#heroGlow)"
     />
 
     <rect
       width="1200"
-      height="1700"
-      fill="url(#bottomBloom)"
+      height="1850"
+      fill="url(#lowerGlow)"
     />
 
     <rect
       width="1200"
-      height="1700"
-      fill="url(#microGrid)"
+      height="1850"
+      fill="url(#grid)"
+    />
+
+    <rect
+      width="1200"
+      height="1850"
+      fill="url(#dots)"
     />
 
 
     <!-- =======================================================
-         SCAN LINE
+         SCANNING BEAM
     ======================================================== -->
 
     <rect
       class="scan"
-      x="-400"
+      x="-450"
       y="0"
-      width="400"
-      height="1700"
-      fill="url(#scan)"
-      transform="skewX(-18)"
+      width="450"
+      height="1850"
+      fill="url(#scanGradient)"
+      transform="skewX(-15)"
     />
 
 
     <!-- =======================================================
-         DECORATIVE PARTICLES
+         OUTER FRAME
     ======================================================== -->
 
-    <g fill="#79C0FF">
+    <path
+      d="
+        M28 56
+        H1172
+        M28 56
+        V86
+
+        M1172 56
+        V86
+
+        M28 1794
+        H1172
+        M28 1794
+        V1764
+
+        M1172 1794
+        V1764
+      "
+      stroke="#4EA1FF"
+      stroke-opacity=".28"
+      stroke-width="1"
+    />
+
+    <path
+      d="
+        M28 115
+        H310
+
+        M890 115
+        H1172
+      "
+      stroke="#4EA1FF"
+      stroke-opacity=".10"
+    />
+
+
+    <!-- =======================================================
+         TOP STATUS BAR
+    ======================================================== -->
+
+    <g class="fadeIn">
+
+      <text
+        x="48"
+        y="42"
+        fill="#60738A"
+        font-size="10"
+        letter-spacing="2"
+        class="mono"
+      >
+        DEV.FIELD_CONSOLE // 01
+      </text>
+
+      <text
+        x="930"
+        y="42"
+        fill="#60738A"
+        font-size="10"
+        letter-spacing="2"
+        class="mono"
+      >
+        SESSION / ACTIVE
+      </text>
 
       <circle
-        class="particle-a"
-        cx="880"
-        cy="65"
-        r="1.5"
-      />
-
-      <circle
-        class="particle-b"
-        cx="1130"
-        cy="190"
-        r="1.2"
-      />
-
-      <circle
-        class="particle-c"
-        cx="780"
-        cy="330"
-        r="1.3"
-      />
-
-      <circle
-        class="particle-b"
-        cx="1080"
-        cy="420"
-        r=".8"
-      />
-
-      <circle
-        class="particle-a"
-        cx="1150"
-        cy="900"
-        r="1"
-      />
-
-      <circle
-        class="particle-c"
-        cx="75"
-        cy="1210"
-        r="1.2"
-      />
-
-      <circle
-        class="particle-b"
-        cx="1060"
-        cy="1510"
-        r="1"
+        cx="1122"
+        cy="39"
+        r="3"
+        fill="#53A7FF"
+        filter="url(#tinyGlow)"
+        class="blink"
       />
 
     </g>
 
 
     <!-- =======================================================
-         TOP HUD FRAME
+         HERO
     ======================================================== -->
 
-    <path
-      d="
-        M32 38
-        H1168
-        M32 38
-        V70
-        M1168 38
-        V70
-      "
-      stroke="#58A6FF"
-      stroke-opacity=".35"
-      stroke-width="1"
-    />
-
-    <path
-      d="
-        M32 1662
-        H1168
-        M32 1662
-        V1630
-        M1168 1662
-        V1630
-      "
-      stroke="#58A6FF"
-      stroke-opacity=".25"
-      stroke-width="1"
-    />
-
-
-    <!-- =======================================================
-         HEADER
-    ======================================================== -->
-
-    <g class="title">
+    <g class="heroIn">
 
       <text
-        x="62"
-        y="112"
-        fill="#79C0FF"
-        font-size="13"
+        x="60"
+        y="150"
+        fill="#78BAFF"
+        font-size="12"
         letter-spacing="3"
         class="mono"
       >
-        FIELD NOTES / ACTIVE
+        IDENTITY // FIELD NOTES
       </text>
 
       <text
-        x="62"
-        y="175"
-        fill="url(#accent)"
-        font-size="64"
+        x="58"
+        y="228"
+        fill="url(#blueText)"
+        font-size="76"
         font-weight="800"
+        letter-spacing="-3"
         class="sans"
-        filter="url(#titleShadow)"
+        filter="url(#shadow)"
       >
         Harsha
       </text>
 
       <rect
-        x="64"
-        y="194"
-        width="250"
+        x="62"
+        y="250"
+        width="280"
         height="3"
         rx="1.5"
-        fill="url(#accent)"
+        fill="url(#blueText)"
       />
 
       <text
-        x="64"
-        y="230"
-        fill="#8B9AAF"
+        x="62"
+        y="286"
+        fill="#76889D"
         font-size="15"
+        letter-spacing="1"
         class="mono"
       >
-        AIML / SYSTEMS / EXPERIMENTS
+        AIML UNDERGRAD / BUILDER / EXPERIMENTAL SYSTEMS
+      </text>
+
+      <!-- philosophy -->
+
+      <text
+        x="62"
+        y="340"
+        fill="#E1EAF4"
+        font-size="22"
+        font-weight="600"
+        class="sans"
+      >
+        Not a student who codes.
+      </text>
+
+      <text
+        x="62"
+        y="372"
+        fill="#8697AA"
+        font-size="16"
+        class="sans"
+      >
+        A person who builds things to understand them,
+      </text>
+
+      <text
+        x="62"
+        y="397"
+        fill="#8697AA"
+        font-size="16"
+        class="sans"
+      >
+        then breaks them to understand them better.
       </text>
 
     </g>
 
 
     <!-- =======================================================
-         HUD ORBIT
+         HERO HUD
     ======================================================== -->
 
     <g>
 
       <circle
-        class="pulse"
         cx="1000"
-        cy="145"
-        r="55"
-        stroke="#58A6FF"
-        stroke-opacity=".3"
+        cy="165"
+        r="82"
+        stroke="#4EA1FF"
+        stroke-opacity=".10"
       />
 
       <circle
-        class="pulse-delay"
         cx="1000"
-        cy="145"
-        r="55"
-        stroke="#58A6FF"
+        cy="165"
+        r="60"
+        stroke="#4EA1FF"
+        stroke-opacity=".16"
+        stroke-dasharray="3 8"
+      />
+
+      <circle
+        cx="1000"
+        cy="165"
+        r="39"
+        stroke="#77BCFF"
         stroke-opacity=".2"
       />
 
       <circle
+        class="pulse"
         cx="1000"
-        cy="145"
-        r="72"
-        stroke="#58A6FF"
+        cy="165"
+        r="34"
+        stroke="#4EA1FF"
+        stroke-opacity=".38"
+      />
+
+      <circle
+        class="pulse2"
+        cx="1000"
+        cy="165"
+        r="34"
+        stroke="#4EA1FF"
+        stroke-opacity=".28"
+      />
+
+      <circle
+        cx="1000"
+        cy="165"
+        r="4"
+        fill="#C6E8FF"
+        filter="url(#glow)"
+      />
+
+      <g class="orbit">
+
+        <circle
+          cx="1000"
+          cy="102"
+          r="3"
+          fill="#6EB6FF"
+        />
+
+      </g>
+
+      <g class="orbitReverse">
+
+        <circle
+          cx="1000"
+          cy="228"
+          r="2.3"
+          fill="#B2DDFF"
+        />
+
+      </g>
+
+      <g class="orbit">
+
+        <circle
+          cx="1063"
+          cy="165"
+          r="1.8"
+          fill="#8DC7FF"
+        />
+
+      </g>
+
+      <g class="orbitReverse">
+
+        <circle
+          cx="937"
+          cy="165"
+          r="1.8"
+          fill="#5CA9FF"
+        />
+
+      </g>
+
+      <text
+        x="1000"
+        y="277"
+        text-anchor="middle"
+        fill="#4F6680"
+        font-size="9"
+        letter-spacing="2"
+        class="mono"
+      >
+        BUILD / BREAK / LEARN
+      </text>
+
+    </g>
+
+
+    <!-- =======================================================
+         LINK STRIP
+    ======================================================== -->
+
+    <g class="fadeIn">
+
+      <rect
+        x="58"
+        y="430"
+        width="1084"
+        height="50"
+        rx="8"
+        fill="#080E16"
+        stroke="#4EA1FF"
         stroke-opacity=".12"
       />
 
-      <circle
-        cx="1000"
-        cy="145"
-        r="48"
-        stroke="#79C0FF"
-        stroke-opacity=".18"
-      />
-
-      <circle
-        cx="1000"
-        cy="145"
-        r="5"
-        fill="#B6E3FF"
-        filter="url(#softGlow)"
-      />
-
-      <g class="orbit-a">
-
-        <circle
-          cx="1000"
-          cy="93"
-          r="3"
-          fill="#79C0FF"
-        />
-
-      </g>
-
-      <g class="orbit-b">
-
-        <circle
-          cx="1000"
-          cy="197"
-          r="2.4"
-          fill="#79C0FF"
-        />
-
-      </g>
-
-      <g class="orbit-a">
-
-        <circle
-          cx="1052"
-          cy="145"
-          r="2"
-          fill="#B6E3FF"
-        />
-
-      </g>
-
-      <g class="orbit-b">
-
-        <circle
-          cx="948"
-          cy="145"
-          r="2"
-          fill="#79C0FF"
-        />
-
-      </g>
-
-    </g>
-
-
-    <!-- =======================================================
-         INTRO PANEL
-    ======================================================== -->
-
-    <rect
-      x="52"
-      y="280"
-      width="1096"
-      height="112"
-      rx="10"
-      fill="#0B111B"
-      stroke="#58A6FF"
-      stroke-opacity=".13"
-    />
-
-    <path
-      d="M52 302H1148"
-      stroke="#58A6FF"
-      stroke-opacity=".08"
-    />
-
-    <text
-      x="78"
-      y="327"
-      fill="#79C0FF"
-      font-size="12"
-      letter-spacing="2"
-      class="mono"
-    >
-      // IDENTITY
-    </text>
-
-    <text
-      x="78"
-      y="357"
-      fill="#D7E2F0"
-      font-size="19"
-      class="sans"
-    >
-      Not a student who codes.
-    </text>
-
-    <text
-      x="78"
-      y="383"
-      fill="#8B9AAF"
-      font-size="15"
-      class="sans"
-    >
-      A person who builds things to understand them — then breaks them
-      to understand them better.
-    </text>
-
-
-    <!-- =======================================================
-         NAVIGATION
-    ======================================================== -->
-
-    <g class="mono" font-size="13">
-
       <text
-        x="60"
-        y="430"
-        fill="#58A6FF"
+        x="82"
+        y="461"
+        fill="#5E7792"
+        font-size="12"
+        class="mono"
       >
-        [ PORTFOLIO ]
+        ACCESS
       </text>
 
       <text
-        x="200"
-        y="430"
-        fill="#4D6075"
+        x="176"
+        y="461"
+        fill="#5EA9FF"
+        font-size="12"
+        class="mono"
       >
-        ·
+        kattaharsha.dev
       </text>
 
       <text
-        x="225"
-        y="430"
-        fill="#58A6FF"
+        x="444"
+        y="461"
+        fill="#2D4359"
+        font-size="12"
+        class="mono"
       >
-        [ EXPERIMENTS ]
+        //
       </text>
 
       <text
-        x="405"
-        y="430"
-        fill="#4D6075"
+        x="490"
+        y="461"
+        fill="#5EA9FF"
+        font-size="12"
+        class="mono"
       >
-        ·
+        EXPERIMENTS
       </text>
 
       <text
-        x="430"
-        y="430"
-        fill="#58A6FF"
+        x="680"
+        y="461"
+        fill="#2D4359"
+        font-size="12"
+        class="mono"
       >
-        [ CURRENT QUESTIONS ]
+        //
+      </text>
+
+      <text
+        x="725"
+        y="461"
+        fill="#5EA9FF"
+        font-size="12"
+        class="mono"
+      >
+        CURRENT QUESTIONS
       </text>
 
     </g>
 
 
     <!-- =======================================================
-         SECTION: ACTIVE EXPERIMENTS
+         SECTION 01
     ======================================================== -->
 
     <text
-      x="58"
-      y="490"
-      fill="#79C0FF"
-      font-size="12"
-      letter-spacing="2.5"
+      x="60"
+      y="548"
+      fill="#5AA8FF"
+      font-size="11"
+      letter-spacing="3"
       class="mono"
     >
       01 / ACTIVE EXPERIMENTS
     </text>
 
     <text
-      x="58"
-      y="525"
-      fill="#E6EDF5"
-      font-size="30"
+      x="60"
+      y="590"
+      fill="#E7EEF6"
+      font-size="32"
       font-weight="700"
       class="sans"
     >
-      Things currently being built
+      Things I am currently building
+    </text>
+
+    <text
+      x="60"
+      y="619"
+      fill="#66798D"
+      font-size="14"
+      class="sans"
+    >
+      Not projects for the sake of having projects.
+      Small systems built to answer larger questions.
     </text>
 
 
-    <!-- PROJECT CARD 1 -->
+    <!-- =======================================================
+         EXPERIMENT TIMELINE
+    ======================================================== -->
 
-    <rect
-      x="58"
-      y="560"
-      width="1084"
-      height="102"
-      rx="9"
-      fill="#0B111A"
-      stroke="#58A6FF"
-      stroke-opacity=".15"
+    <line
+      x1="88"
+      y1="688"
+      x2="88"
+      y2="1005"
+      stroke="#2D557D"
+      stroke-opacity=".45"
     />
 
-    <rect
-      x="58"
-      y="560"
-      width="4"
-      height="102"
-      rx="2"
-      fill="#58A6FF"
+    <!-- TermNav -->
+
+    <circle
+      cx="88"
+      cy="695"
+      r="5"
+      fill="#68B2FF"
+      filter="url(#tinyGlow)"
     />
 
     <text
-      x="84"
-      y="592"
-      fill="#A5D6FF"
-      font-size="19"
+      x="118"
+      y="696"
+      fill="#A9D8FF"
+      font-size="20"
       font-weight="700"
       class="mono"
     >
@@ -849,54 +911,50 @@
     </text>
 
     <text
-      x="84"
-      y="620"
-      fill="#8B9AAF"
+      x="315"
+      y="696"
+      fill="#4E9EFF"
+      font-size="10"
+      letter-spacing="2"
+      class="mono"
+    >
+      PUBLISHED
+    </text>
+
+    <text
+      x="118"
+      y="725"
+      fill="#8497AA"
       font-size="14"
       class="sans"
     >
-      Keyboard-driven terminal navigation
+      Keyboard-driven terminal navigation.
     </text>
 
     <text
-      x="84"
-      y="644"
-      fill="#58A6FF"
+      x="118"
+      y="748"
+      fill="#506981"
       font-size="11"
-      letter-spacing="1"
       class="mono"
     >
-      NPM / PUBLISHED
+      npm / shipped / first system that felt real
     </text>
 
+    <!-- SecureFile -->
 
-    <!-- PROJECT CARD 2 -->
-
-    <rect
-      x="58"
-      y="676"
-      width="1084"
-      height="102"
-      rx="9"
-      fill="#0B111A"
-      stroke="#58A6FF"
-      stroke-opacity=".15"
-    />
-
-    <rect
-      x="58"
-      y="676"
-      width="4"
-      height="102"
-      rx="2"
-      fill="#58A6FF"
+    <circle
+      cx="88"
+      cy="805"
+      r="4"
+      fill="#477DAA"
     />
 
     <text
-      x="84"
-      y="708"
-      fill="#A5D6FF"
-      font-size="19"
+      x="118"
+      y="806"
+      fill="#A0CDEF"
+      font-size="20"
       font-weight="700"
       class="mono"
     >
@@ -904,54 +962,39 @@
     </text>
 
     <text
-      x="84"
-      y="736"
-      fill="#8B9AAF"
+      x="118"
+      y="835"
+      fill="#8497AA"
       font-size="14"
       class="sans"
     >
-      File and image encryption
+      File and image encryption.
     </text>
 
     <text
-      x="84"
-      y="760"
-      fill="#79C0FF"
+      x="118"
+      y="858"
+      fill="#506981"
       font-size="11"
-      letter-spacing="1"
       class="mono"
     >
-      DISTRUST IS A FEATURE
+      distrust is a feature
     </text>
 
+    <!-- MorphStudio -->
 
-    <!-- PROJECT CARD 3 -->
-
-    <rect
-      x="58"
-      y="792"
-      width="1084"
-      height="102"
-      rx="9"
-      fill="#0B111A"
-      stroke="#58A6FF"
-      stroke-opacity=".15"
-    />
-
-    <rect
-      x="58"
-      y="792"
-      width="4"
-      height="102"
-      rx="2"
-      fill="#58A6FF"
+    <circle
+      cx="88"
+      cy="915"
+      r="4"
+      fill="#477DAA"
     />
 
     <text
-      x="84"
-      y="824"
-      fill="#A5D6FF"
-      font-size="19"
+      x="118"
+      y="916"
+      fill="#A0CDEF"
+      font-size="20"
       font-weight="700"
       class="mono"
     >
@@ -959,54 +1002,39 @@
     </text>
 
     <text
-      x="84"
-      y="852"
-      fill="#8B9AAF"
+      x="118"
+      y="945"
+      fill="#8497AA"
       font-size="14"
       class="sans"
     >
-      Graphics and vector work that outgrew a curiosity
+      Graphics and vector work that outgrew a curiosity.
     </text>
 
     <text
-      x="84"
-      y="876"
-      fill="#79C0FF"
+      x="118"
+      y="968"
+      fill="#506981"
       font-size="11"
-      letter-spacing="1"
       class="mono"
     >
-      EVOLVING
+      evolving
     </text>
 
+    <!-- Nexis -->
 
-    <!-- PROJECT CARD 4 -->
-
-    <rect
-      x="58"
-      y="908"
-      width="1084"
-      height="102"
-      rx="9"
-      fill="#0B111A"
-      stroke="#58A6FF"
-      stroke-opacity=".15"
-    />
-
-    <rect
-      x="58"
-      y="908"
-      width="4"
-      height="102"
-      rx="2"
-      fill="#58A6FF"
+    <circle
+      cx="600"
+      cy="695"
+      r="4"
+      fill="#477DAA"
     />
 
     <text
-      x="84"
-      y="940"
-      fill="#A5D6FF"
-      font-size="19"
+      x="630"
+      y="696"
+      fill="#A0CDEF"
+      font-size="20"
       font-weight="700"
       class="mono"
     >
@@ -1014,54 +1042,50 @@
     </text>
 
     <text
-      x="84"
-      y="968"
-      fill="#8B9AAF"
+      x="630"
+      y="725"
+      fill="#8497AA"
       font-size="14"
       class="sans"
     >
-      Distributed systems, because one machine was not enough
+      Distributed systems,
     </text>
 
     <text
-      x="84"
-      y="992"
-      fill="#79C0FF"
+      x="630"
+      y="747"
+      fill="#8497AA"
+      font-size="14"
+      class="sans"
+    >
+      because one machine was not enough.
+    </text>
+
+    <text
+      x="630"
+      y="771"
+      fill="#506981"
       font-size="11"
-      letter-spacing="1"
       class="mono"
     >
-      IN PROGRESS
+      in progress
     </text>
 
+    <!-- Orbit -->
 
-    <!-- PROJECT CARD 5 -->
-
-    <rect
-      x="58"
-      y="1024"
-      width="1084"
-      height="102"
-      rx="9"
-      fill="#0B111A"
-      stroke="#58A6FF"
-      stroke-opacity=".15"
-    />
-
-    <rect
-      x="58"
-      y="1024"
-      width="4"
-      height="102"
-      rx="2"
-      fill="#58A6FF"
+    <circle
+      cx="600"
+      cy="870"
+      r="5"
+      fill="#68B2FF"
+      filter="url(#tinyGlow)"
     />
 
     <text
-      x="84"
-      y="1056"
-      fill="#A5D6FF"
-      font-size="19"
+      x="630"
+      y="871"
+      fill="#A9D8FF"
+      font-size="20"
       font-weight="700"
       class="mono"
     >
@@ -1069,264 +1093,490 @@
     </text>
 
     <text
-      x="84"
-      y="1084"
-      fill="#8B9AAF"
+      x="630"
+      y="900"
+      fill="#8497AA"
       font-size="14"
       class="sans"
     >
-      An operating system from scratch
+      An operating system from scratch.
     </text>
 
     <text
-      x="84"
-      y="1108"
-      fill="#79C0FF"
+      x="630"
+      y="924"
+      fill="#506981"
       font-size="11"
-      letter-spacing="1"
       class="mono"
     >
-      ONGOING · PROBABLY NEVER DONE
+      ongoing / probably never done
     </text>
 
 
     <!-- =======================================================
-         OPERATING LOOP
+         SEPARATOR
+    ======================================================== -->
+
+    <path
+      d="M58 1028H1142"
+      stroke="url(#lineBlue)"
+      stroke-opacity=".18"
+    />
+
+
+    <!-- =======================================================
+         SECTION 02
     ======================================================== -->
 
     <text
-      x="58"
-      y="1180"
-      fill="#79C0FF"
-      font-size="12"
-      letter-spacing="2.5"
+      x="60"
+      y="1090"
+      fill="#5AA8FF"
+      font-size="11"
+      letter-spacing="3"
       class="mono"
     >
       02 / OPERATING LOOP
     </text>
 
     <text
-      x="58"
-      y="1215"
-      fill="#E6EDF5"
-      font-size="30"
+      x="60"
+      y="1132"
+      fill="#E7EEF6"
+      font-size="32"
       font-weight="700"
       class="sans"
     >
-      The method
+      How the experiments actually happen
     </text>
 
 
-    <rect
-      x="58"
-      y="1245"
-      width="1084"
-      height="220"
-      rx="10"
-      fill="#080E16"
-      stroke="#58A6FF"
-      stroke-opacity=".13"
-    />
+    <!-- LOOP -->
 
-    <text
-      x="95"
-      y="1280"
-      fill="#58A6FF"
-      font-size="15"
-      class="mono"
-    >
-      encounter something confusing
-    </text>
+    <g class="fadeIn">
 
-    <text
-      x="95"
-      y="1312"
-      fill="#4D6075"
-      font-size="18"
-      class="mono"
-    >
-      ↓
-    </text>
+      <!-- central spine -->
 
-    <text
-      x="95"
-      y="1342"
-      fill="#A5D6FF"
-      font-size="15"
-      class="mono"
-    >
-      build the smallest version of it
-    </text>
-
-    <text
-      x="95"
-      y="1374"
-      fill="#4D6075"
-      font-size="18"
-      class="mono"
-    >
-      ↓
-    </text>
-
-    <text
-      x="95"
-      y="1404"
-      fill="#A5D6FF"
-      font-size="15"
-      class="mono"
-    >
-      break it on purpose
-    </text>
-
-    <text
-      x="520"
-      y="1280"
-      fill="#A5D6FF"
-      font-size="15"
-      class="mono"
-    >
-      understand the failure
-    </text>
-
-    <text
-      x="520"
-      y="1312"
-      fill="#4D6075"
-      font-size="18"
-      class="mono"
-    >
-      ↓
-    </text>
-
-    <text
-      x="520"
-      y="1342"
-      fill="#A5D6FF"
-      font-size="15"
-      class="mono"
-    >
-      rebuild it properly
-    </text>
-
-    <text
-      x="520"
-      y="1374"
-      fill="#4D6075"
-      font-size="18"
-      class="mono"
-    >
-      ↓
-    </text>
-
-    <text
-      x="520"
-      y="1404"
-      fill="#58A6FF"
-      font-size="15"
-      class="mono"
-    >
-      find the next confusing thing
-    </text>
-
-
-    <!-- =======================================================
-         CURRENT QUESTIONS
-    ======================================================== -->
-
-    <text
-      x="58"
-      y="1525"
-      fill="#79C0FF"
-      font-size="12"
-      letter-spacing="2.5"
-      class="mono"
-    >
-      03 / CURRENT QUESTIONS
-    </text>
-
-    <text
-      x="58"
-      y="1560"
-      fill="#E6EDF5"
-      font-size="30"
-      font-weight="700"
-      class="sans"
-    >
-      Things currently occupying brain cycles
-    </text>
-
-    <g
-      fill="#A5D6FF"
-      font-size="14"
-      class="sans"
-    >
-
-      <circle
-        cx="70"
-        cy="1592"
-        r="2"
-        fill="#58A6FF"
+      <line
+        x1="600"
+        y1="1190"
+        x2="600"
+        y2="1515"
+        stroke="#295177"
+        stroke-opacity=".5"
+        stroke-dasharray="3 9"
       />
 
+      <!-- nodes -->
+
+      <circle
+        cx="600"
+        cy="1205"
+        r="8"
+        fill="#0A121C"
+        stroke="#58A9FF"
+        stroke-width="2"
+      />
+
+      <circle
+        cx="600"
+        cy="1280"
+        r="8"
+        fill="#0A121C"
+        stroke="#58A9FF"
+        stroke-width="2"
+      />
+
+      <circle
+        cx="600"
+        cy="1355"
+        r="8"
+        fill="#0A121C"
+        stroke="#58A9FF"
+        stroke-width="2"
+      />
+
+      <circle
+        cx="600"
+        cy="1430"
+        r="8"
+        fill="#0A121C"
+        stroke="#58A9FF"
+        stroke-width="2"
+      />
+
+      <circle
+        cx="600"
+        cy="1505"
+        r="8"
+        fill="#0A121C"
+        stroke="#58A9FF"
+        stroke-width="2"
+      />
+
+      <!-- left -->
+
       <text
-        x="86"
-        y="1597"
+        x="100"
+        y="1212"
+        fill="#B0D9FF"
+        font-size="17"
+        font-weight="700"
+        class="mono"
       >
-        Where machine learning ends and systems engineering begins.
+        01
       </text>
 
-      <circle
-        cx="70"
-        cy="1620"
-        r="2"
-        fill="#58A6FF"
-      />
-
       <text
-        x="86"
-        y="1625"
+        x="150"
+        y="1212"
+        fill="#8EA2B6"
+        font-size="15"
+        class="sans"
       >
-        How schedulers decide what deserves to run next.
+        encounter something confusing
       </text>
 
-      <circle
-        cx="70"
-        cy="1648"
-        r="2"
-        fill="#58A6FF"
+      <line
+        x1="390"
+        y1="1205"
+        x2="592"
+        y2="1205"
+        stroke="#2A537A"
+      />
+
+      <!-- right -->
+
+      <line
+        x1="608"
+        y1="1280"
+        x2="810"
+        y2="1280"
+        stroke="#2A537A"
       />
 
       <text
-        x="86"
-        y="1653"
+        x="835"
+        y="1287"
+        fill="#B0D9FF"
+        font-size="17"
+        font-weight="700"
+        class="mono"
       >
-        Why some abstractions hold — and others leak immediately.
+        02
+      </text>
+
+      <text
+        x="885"
+        y="1287"
+        fill="#8EA2B6"
+        font-size="15"
+        class="sans"
+      >
+        build the smallest version
+      </text>
+
+      <!-- left -->
+
+      <text
+        x="100"
+        y="1362"
+        fill="#B0D9FF"
+        font-size="17"
+        font-weight="700"
+        class="mono"
+      >
+        03
+      </text>
+
+      <text
+        x="150"
+        y="1362"
+        fill="#8EA2B6"
+        font-size="15"
+        class="sans"
+      >
+        break it on purpose
+      </text>
+
+      <line
+        x1="300"
+        y1="1355"
+        x2="592"
+        y2="1355"
+        stroke="#2A537A"
+      />
+
+      <!-- right -->
+
+      <line
+        x1="608"
+        y1="1430"
+        x2="810"
+        y2="1430"
+        stroke="#2A537A"
+      />
+
+      <text
+        x="835"
+        y="1437"
+        fill="#B0D9FF"
+        font-size="17"
+        font-weight="700"
+        class="mono"
+      >
+        04
+      </text>
+
+      <text
+        x="885"
+        y="1437"
+        fill="#8EA2B6"
+        font-size="15"
+        class="sans"
+      >
+        understand the failure
+      </text>
+
+      <!-- left -->
+
+      <text
+        x="100"
+        y="1512"
+        fill="#B0D9FF"
+        font-size="17"
+        font-weight="700"
+        class="mono"
+      >
+        05
+      </text>
+
+      <text
+        x="150"
+        y="1512"
+        fill="#8EA2B6"
+        font-size="15"
+        class="sans"
+      >
+        rebuild it properly
+      </text>
+
+      <line
+        x1="300"
+        y1="1505"
+        x2="592"
+        y2="1505"
+        stroke="#2A537A"
+      />
+
+      <path
+        d="
+          M600 1520
+          C600 1560
+           710 1560
+           810 1560
+        "
+        stroke="#4EA1FF"
+        stroke-opacity=".4"
+        stroke-dasharray="3 6"
+      />
+
+      <text
+        x="835"
+        y="1566"
+        fill="#5EA9FF"
+        font-size="13"
+        letter-spacing="1"
+        class="mono"
+      >
+        NEXT CONFUSING THING →
       </text>
 
     </g>
 
 
     <!-- =======================================================
-         FOOTER
+         SECTION 03
     ======================================================== -->
-
-    <line
-      x1="58"
-      y1="1680"
-      x2="1142"
-      y2="1680"
-      stroke="#58A6FF"
-      stroke-opacity=".15"
-    />
 
     <text
       x="60"
-      y="1695"
-      fill="#65758A"
+      y="1635"
+      fill="#5AA8FF"
+      font-size="11"
+      letter-spacing="3"
+      class="mono"
+    >
+      03 / CURRENT QUESTIONS
+    </text>
+
+    <text
+      x="60"
+      y="1675"
+      fill="#E7EEF6"
+      font-size="32"
+      font-weight="700"
+      class="sans"
+    >
+      Questions occupying the system
+    </text>
+
+
+    <!-- question cards -->
+
+    <rect
+      x="58"
+      y="1710"
+      width="338"
+      height="86"
+      rx="8"
+      fill="#080F18"
+      stroke="#4EA1FF"
+      stroke-opacity=".12"
+    />
+
+    <text
+      x="80"
+      y="1740"
+      fill="#4EA1FF"
+      font-size="10"
+      letter-spacing="2"
+      class="mono"
+    >
+      Q / 01
+    </text>
+
+    <text
+      x="80"
+      y="1768"
+      fill="#91A5B9"
+      font-size="13"
+      class="sans"
+    >
+      Where ML ends and
+    </text>
+
+    <text
+      x="80"
+      y="1788"
+      fill="#91A5B9"
+      font-size="13"
+      class="sans"
+    >
+      systems engineering begins.
+    </text>
+
+
+    <rect
+      x="431"
+      y="1710"
+      width="338"
+      height="86"
+      rx="8"
+      fill="#080F18"
+      stroke="#4EA1FF"
+      stroke-opacity=".12"
+    />
+
+    <text
+      x="453"
+      y="1740"
+      fill="#4EA1FF"
+      font-size="10"
+      letter-spacing="2"
+      class="mono"
+    >
+      Q / 02
+    </text>
+
+    <text
+      x="453"
+      y="1768"
+      fill="#91A5B9"
+      font-size="13"
+      class="sans"
+    >
+      How schedulers decide what
+    </text>
+
+    <text
+      x="453"
+      y="1788"
+      fill="#91A5B9"
+      font-size="13"
+      class="sans"
+    >
+      deserves to run next.
+    </text>
+
+
+    <rect
+      x="804"
+      y="1710"
+      width="338"
+      height="86"
+      rx="8"
+      fill="#080F18"
+      stroke="#4EA1FF"
+      stroke-opacity=".12"
+    />
+
+    <text
+      x="826"
+      y="1740"
+      fill="#4EA1FF"
+      font-size="10"
+      letter-spacing="2"
+      class="mono"
+    >
+      Q / 03
+    </text>
+
+    <text
+      x="826"
+      y="1768"
+      fill="#91A5B9"
+      font-size="13"
+      class="sans"
+    >
+      Why some abstractions hold
+    </text>
+
+    <text
+      x="826"
+      y="1788"
+      fill="#91A5B9"
+      font-size="13"
+      class="sans"
+    >
+      while others leak immediately.
+    </text>
+
+
+    <!-- =======================================================
+         FOOTER
+    ======================================================== -->
+
+    <text
+      x="60"
+      y="1830"
+      fill="#53667A"
+      font-size="10"
+      letter-spacing="1.5"
+      class="mono"
+    >
+      AIML UNDERGRAD // COURSEWORK GATHERS DUST; EXPERIMENTS DO NOT.
+    </text>
+
+    <text
+      x="1118"
+      y="1830"
+      text-anchor="end"
+      fill="#364A60"
       font-size="10"
       class="mono"
     >
-      AIML UNDERGRAD · COURSEWORK GATHERS DUST; EXPERIMENTS DO NOT.
+      BUILD → BREAK → UNDERSTAND
     </text>
 
   </g>
