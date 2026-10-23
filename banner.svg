@@ -1,256 +1,273 @@
-<svg
-  width="1200"
-  height="1900"
-  viewBox="0 0 1200 1900"
-  fill="none"
-  xmlns="http://www.w3.org/2000/svg"
-  role="img"
-  aria-labelledby="title desc"
->
+<svg width="1200" height="2590" viewBox="0 0 1200 2590" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
   <title id="title">Harsha — Developer Profile</title>
-  <desc id="desc">
-    A blueprint-style drawing sheet: headline thesis, a parts list of active
-    builds, the build/break/rebuild loop drawn as a feedback schematic,
-    open questions, and a title block.
-  </desc>
-
+  <desc id="desc">A blueprint-style developer profile for Katta Harsha Vardhan: positioning, selected work, other builds, stack, how he works, open questions, and a title block.</desc>
   <defs>
-    <pattern id="minor" width="24" height="24" patternUnits="userSpaceOnUse">
-      <path d="M24 0H0V24" stroke="#5C8DB5" stroke-opacity=".10" stroke-width="1"/>
-    </pattern>
-    <pattern id="major" width="120" height="120" patternUnits="userSpaceOnUse">
-      <path d="M120 0H0V120" stroke="#5C8DB5" stroke-opacity=".20" stroke-width="1"/>
-    </pattern>
-
-    <marker id="arr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
-      <path d="M0 0L10 5L0 10z" fill="#EAF3FA"/>
-    </marker>
-
+    <pattern id="minor" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" stroke="#5C8DB5" stroke-opacity=".10" stroke-width="1"/></pattern>
+    <pattern id="major" width="120" height="120" patternUnits="userSpaceOnUse"><path d="M120 0H0V120" stroke="#5C8DB5" stroke-opacity=".20" stroke-width="1"/></pattern>
+    <marker id="arr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#EAF3FA"/></marker>
     <style>
       .disp { font-family: "Oswald","Bebas Neue","Archivo Narrow","Arial Narrow","Helvetica Neue",Impact,sans-serif; font-weight: 700; }
       .mono { font-family: "JetBrains Mono","SFMono-Regular",Menlo,Consolas,monospace; }
       .sans { font-family: "Inter","Segoe UI",Helvetica,Arial,sans-serif; }
-
       .flow { stroke-dasharray: 6 8; animation: flow 1.4s linear infinite; }
       @keyframes flow { to { stroke-dashoffset: -14; } }
-
-      @media (prefers-reduced-motion: reduce) {
-        * { animation: none !important; }
-      }
+      @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
     </style>
   </defs>
-
-  <!-- ================= SHEET ================= -->
-  <rect width="1200" height="1900" fill="#0D2B4A"/>
-  <rect width="1200" height="1900" fill="url(#minor)"/>
-  <rect width="1200" height="1900" fill="url(#major)"/>
-
-  <rect x="16" y="16" width="1168" height="1868" stroke="#EAF3FA" stroke-opacity=".45" stroke-width="1"/>
-  <rect x="32" y="32" width="1136" height="1836" stroke="#EAF3FA" stroke-width="2"/>
-
-  <!-- zone ticks: columns 1-9 along the top, rows A-J down the left -->
-  <g stroke="#EAF3FA" stroke-opacity=".45">
-    <path d="M183 16V32M302 16V32M421 16V32M540 16V32M660 16V32M779 16V32M898 16V32M1017 16V32"/>
-    <path d="M16 215H32M16 399H32M16 583H32M16 766H32M16 950H32M16 1134H32M16 1318H32M16 1501H32M16 1685H32"/>
-  </g>
-  <g class="mono" font-size="10" fill="#8FB0CC" text-anchor="middle">
-    <text x="124" y="28">1</text><text x="243" y="28">2</text><text x="362" y="28">3</text>
-    <text x="481" y="28">4</text><text x="600" y="28">5</text><text x="719" y="28">6</text>
-    <text x="838" y="28">7</text><text x="957" y="28">8</text><text x="1076" y="28">9</text>
-    <text x="24" y="127">A</text><text x="24" y="307">B</text><text x="24" y="491">C</text>
-    <text x="24" y="675">D</text><text x="24" y="858">E</text><text x="24" y="1042">F</text>
-    <text x="24" y="1226">G</text><text x="24" y="1410">H</text><text x="24" y="1593">I</text>
-    <text x="24" y="1777">J</text>
-  </g>
-
-  <!-- ================= HEADER ================= -->
-  <text x="64" y="62" font-size="16" font-weight="700" class="mono" fill="#EAF3FA">harsha<tspan fill="#FFD23F">@</tspan>katta</text>
-  <text x="600" y="61" text-anchor="middle" font-size="12" letter-spacing="3" class="mono" fill="#8FB0CC">DEVELOPER PROFILE — SHEET 1/1</text>
-  <text x="1136" y="61" text-anchor="end" font-size="12" letter-spacing="2" class="mono" fill="#8FB0CC">REV 2026.10</text>
-  <line x1="32" y1="80" x2="1168" y2="80" stroke="#EAF3FA" stroke-opacity=".6"/>
-
-  <!-- ================= HERO ================= -->
-  <!-- dimension line -->
-  <line x1="64" y1="116" x2="436" y2="116" stroke="#EAF3FA" stroke-width="1.2" marker-start="url(#arr)"/>
-  <line x1="764" y1="116" x2="1136" y2="116" stroke="#EAF3FA" stroke-width="1.2" marker-end="url(#arr)"/>
-  <path d="M64 104V128M1136 104V128" stroke="#EAF3FA" stroke-width="1.2"/>
-  <text x="600" y="120" text-anchor="middle" font-size="13" letter-spacing="3" class="mono" fill="#EAF3FA">BUILD → BREAK → UNDERSTAND</text>
-
-  <text x="64" y="272" font-size="132" class="disp" fill="#EAF3FA" textLength="727" lengthAdjust="spacingAndGlyphs">BUILD TO</text>
-  <text x="64" y="412" font-size="132" class="disp" fill="#EAF3FA" textLength="1000" lengthAdjust="spacingAndGlyphs">UNDERSTAND.</text>
-  <rect x="64" y="428" width="1000" height="10" fill="#FFD23F"/>
-
-  <!-- stamp -->
-  <g transform="rotate(-8 990 215)">
-    <circle cx="990" cy="215" r="72" stroke="#FFD23F" stroke-width="3"/>
-    <circle cx="990" cy="215" r="63" stroke="#FFD23F" stroke-width="1.2"/>
-    <text x="990" y="198" text-anchor="middle" font-size="14" font-weight="700" letter-spacing="2" class="mono" fill="#FFD23F">FINAL YEAR</text>
-    <text x="990" y="232" text-anchor="middle" font-size="32" class="disp" fill="#FFD23F">AIML</text>
-    <text x="990" y="252" text-anchor="middle" font-size="11" letter-spacing="2" class="mono" fill="#FFD23F">UNDERGRAD</text>
-  </g>
-
-  <!-- philosophy -->
-  <text x="64" y="504" font-size="24" font-weight="700" class="sans" fill="#EAF3FA">not a student who codes.</text>
-  <text x="64" y="536" font-size="18" class="sans" fill="#EAF3FA" fill-opacity=".85">a person who builds things to understand them,</text>
-  <text x="64" y="564" font-size="18" class="sans" fill="#EAF3FA" fill-opacity=".85">then breaks them to understand them better.</text>
-
-  <!-- keywords -->
-  <g class="mono" font-size="12" font-weight="700" letter-spacing="1.5" fill="#EAF3FA">
-    <rect x="64" y="596" width="184" height="34" fill="none" stroke="#EAF3FA" stroke-width="1.5"/>
-    <text x="156" y="618" text-anchor="middle">AIML UNDERGRAD</text>
-    <rect x="262" y="596" width="116" height="34" fill="none" stroke="#EAF3FA" stroke-width="1.5"/>
-    <text x="320" y="618" text-anchor="middle">BUILDER</text>
-    <rect x="392" y="596" width="240" height="34" fill="none" stroke="#EAF3FA" stroke-width="1.5"/>
-    <text x="512" y="618" text-anchor="middle">EXPERIMENTAL SYSTEMS</text>
-  </g>
-
-  <line x1="64" y1="668" x2="1136" y2="668" stroke="#EAF3FA" stroke-opacity=".3"/>
-
-  <!-- ================= ACTIVE BUILDS: PARTS LIST ================= -->
-  <text x="64" y="724" font-size="44" class="disp" fill="#EAF3FA" letter-spacing="1">ACTIVE BUILDS</text>
-  <text x="64" y="756" font-size="16" class="sans" fill="#EAF3FA" fill-opacity=".8">Small systems built to answer larger questions, not to pad a résumé.</text>
-
-  <!-- table frame -->
-  <rect x="64" y="784" width="1072" height="336" stroke="#EAF3FA" stroke-width="1.5"/>
-  <rect x="64" y="784" width="1072" height="36" fill="#EAF3FA" fill-opacity=".10"/>
-  <g stroke="#EAF3FA" stroke-opacity=".55">
-    <path d="M64 820H1136M64 880H1136M64 940H1136M64 1000H1136M64 1060H1136"/>
-    <path d="M124 784V1120M350 784V1120M484 784V1120"/>
-  </g>
-  <g class="mono" font-size="11" letter-spacing="2" fill="#8FB0CC">
-    <text x="76" y="806">NO.</text>
-    <text x="140" y="806">NAME</text>
-    <text x="366" y="806">STATUS</text>
-    <text x="500" y="806">NOTE</text>
-  </g>
-
-  <!-- row 1 TermNav -->
-  <text x="76" y="857" font-size="14" class="mono" fill="#8FB0CC">01</text>
-  <text x="140" y="857" font-size="20" font-weight="700" class="mono" fill="#EAF3FA">TermNav</text>
-  <rect x="366" y="836" width="100" height="28" fill="#EAF3FA"/>
-  <text x="416" y="855" text-anchor="middle" font-size="11" font-weight="700" letter-spacing="1.5" class="mono" fill="#0D2B4A">SHIPPED</text>
-  <text x="500" y="848" font-size="14" class="sans" fill="#EAF3FA" fill-opacity=".9">Keyboard-driven terminal navigation, published to npm —</text>
-  <text x="500" y="868" font-size="14" class="sans" fill="#EAF3FA" fill-opacity=".9">the first system that felt real.</text>
-
-  <!-- row 2 Doclayer -->
-  <text x="76" y="917" font-size="14" class="mono" fill="#8FB0CC">02</text>
-  <text x="140" y="917" font-size="20" font-weight="700" class="mono" fill="#EAF3FA">Doclayer</text>
-  <rect x="366" y="896" width="100" height="28" fill="#FFD23F"/>
-  <text x="416" y="915" text-anchor="middle" font-size="11" font-weight="700" letter-spacing="1.5" class="mono" fill="#0D2B4A">ACTIVE</text>
-  <text x="500" y="916" font-size="14" class="sans" fill="#EAF3FA" fill-opacity=".9">Word Automation System</text>
-
-  <!-- row 3 MorphStudio -->
-  <text x="76" y="977" font-size="14" class="mono" fill="#8FB0CC">03</text>
-  <text x="140" y="977" font-size="20" font-weight="700" class="mono" fill="#EAF3FA">MorphStudio</text>
-  <rect x="366" y="956" width="100" height="28" fill="#FFD23F"/>
-  <text x="416" y="975" text-anchor="middle" font-size="11" font-weight="700" letter-spacing="1.5" class="mono" fill="#0D2B4A">ACTIVE</text>
-  <text x="500" y="976" font-size="14" class="sans" fill="#EAF3FA" fill-opacity=".9">Graphics and vector work that outgrew a weekend curiosity.</text>
-
-  <!-- row 4 Nexis -->
-  <text x="76" y="1037" font-size="14" class="mono" fill="#8FB0CC">04</text>
-  <text x="140" y="1037" font-size="20" font-weight="700" class="mono" fill="#EAF3FA">Nexis</text>
-  <rect x="366" y="1016" width="100" height="28" stroke="#EAF3FA" stroke-width="1.5"/>
-  <text x="416" y="1035" text-anchor="middle" font-size="11" font-weight="700" letter-spacing="1.5" class="mono" fill="#EAF3FA">WIP</text>
-  <text x="500" y="1036" font-size="14" class="sans" fill="#EAF3FA" fill-opacity=".9">Distributed systems — because one machine was never enough.</text>
-
-  <!-- row 5 Orbit -->
-  <text x="76" y="1097" font-size="14" class="mono" fill="#8FB0CC">05</text>
-  <text x="140" y="1097" font-size="20" font-weight="700" class="mono" fill="#EAF3FA">Orbit</text>
-  <rect x="366" y="1076" width="100" height="28" stroke="#EAF3FA" stroke-width="1.5" stroke-dasharray="5 4"/>
-  <text x="416" y="1095" text-anchor="middle" font-size="11" font-weight="700" letter-spacing="1.5" class="mono" fill="#EAF3FA">ONGOING</text>
-  <text x="500" y="1088" font-size="14" class="sans" fill="#EAF3FA" fill-opacity=".9">An operating system from scratch — probably never finished,</text>
-  <text x="500" y="1108" font-size="14" class="sans" fill="#EAF3FA" fill-opacity=".9">always instructive.</text>
-
-  <line x1="64" y1="1156" x2="1136" y2="1156" stroke="#EAF3FA" stroke-opacity=".3"/>
-
-  <!-- ================= THE LOOP: FEEDBACK SCHEMATIC ================= -->
-  <text x="64" y="1230" font-size="44" class="disp" fill="#EAF3FA" letter-spacing="1">THE LOOP</text>
-  <text x="64" y="1264" font-size="16" class="sans" fill="#EAF3FA" fill-opacity=".8">Five real stages,</text>
-  <text x="64" y="1288" font-size="16" class="sans" fill="#EAF3FA" fill-opacity=".8">repeated until</text>
-  <text x="64" y="1312" font-size="16" class="sans" fill="#EAF3FA" fill-opacity=".8">something works.</text>
-
-  <text x="64" y="1478" font-size="14" class="mono" fill="#EAF3FA"><tspan fill="#FFD23F">↻</tspan> loops back to 01</text>
-  <text x="64" y="1500" font-size="14" class="mono" fill="#8FB0CC">— next confusing thing</text>
-
-  <g transform="translate(0 20)">
-    <!-- centerline (drafting convention) -->
-    <line x1="560" y1="1340" x2="960" y2="1340" stroke="#8FB0CC" stroke-opacity=".5" stroke-dasharray="14 4 2 4"/>
-    <text x="760" y="1336" text-anchor="middle" font-size="11" letter-spacing="2" class="mono" fill="#8FB0CC">REPEAT</text>
-    <text x="760" y="1356" text-anchor="middle" font-size="11" letter-spacing="1" class="mono" fill="#8FB0CC">UNTIL IT WORKS</text>
-
-    <!-- transitions -->
-    <g stroke="#EAF3FA" stroke-width="2" marker-end="url(#arr)">
-      <path class="flow" d="M791.4 1213.9 A130 130 0 0 1 870.2 1271.1"/>
-      <path class="flow" d="M889.7 1330.9 A130 130 0 0 1 859.6 1423.6"/>
-      <path class="flow" d="M808.7 1460.5 A130 130 0 0 1 711.3 1460.5"/>
-      <path class="flow" d="M660.4 1423.6 A130 130 0 0 1 630.3 1330.9"/>
-      <path class="flow" d="M649.8 1271.1 A130 130 0 0 1 728.6 1213.9"/>
-    </g>
-
-    <!-- nodes -->
-    <circle cx="760" cy="1210" r="16" fill="#0D2B4A" stroke="#EAF3FA" stroke-width="2"/>
-    <text x="760" y="1215" text-anchor="middle" font-size="13" font-weight="700" class="mono" fill="#EAF3FA">01</text>
-
-    <circle cx="883.6" cy="1299.8" r="16" fill="#0D2B4A" stroke="#EAF3FA" stroke-width="2"/>
-    <text x="883.6" y="1304.8" text-anchor="middle" font-size="13" font-weight="700" class="mono" fill="#EAF3FA">02</text>
-
-    <circle cx="836.4" cy="1445.2" r="16" fill="#FFD23F" stroke="#FFD23F" stroke-width="2"/>
-    <text x="836.4" y="1450.2" text-anchor="middle" font-size="13" font-weight="700" class="mono" fill="#0D2B4A">03</text>
-
-    <circle cx="683.6" cy="1445.2" r="16" fill="#0D2B4A" stroke="#EAF3FA" stroke-width="2"/>
-    <text x="683.6" y="1450.2" text-anchor="middle" font-size="13" font-weight="700" class="mono" fill="#EAF3FA">04</text>
-
-    <circle cx="636.4" cy="1299.8" r="16" fill="#0D2B4A" stroke="#EAF3FA" stroke-width="2"/>
-    <text x="636.4" y="1304.8" text-anchor="middle" font-size="13" font-weight="700" class="mono" fill="#EAF3FA">05</text>
-
-    <!-- labels -->
-    <g class="sans" font-size="17" font-weight="600" fill="#EAF3FA">
-      <text x="760" y="1182" text-anchor="middle">encounter something confusing</text>
-      <text x="908" y="1305">build the smallest version</text>
-      <text x="860" y="1451" fill="#FFD23F">break it on purpose</text>
-      <text x="660" y="1451" text-anchor="end">understand the failure</text>
-      <text x="612" y="1305" text-anchor="end">rebuild it properly</text>
-    </g>
-  </g>
-
-  <line x1="64" y1="1540" x2="1136" y2="1540" stroke="#EAF3FA" stroke-opacity=".3"/>
-
-  <!-- ================= OPEN QUESTIONS ================= -->
-  <text x="64" y="1594" font-size="44" class="disp" fill="#EAF3FA" letter-spacing="1">OPEN QUESTIONS</text>
-
-  <g>
-    <rect x="64" y="1618" width="342" height="108" fill="#EAF3FA" fill-opacity=".05" stroke="#EAF3FA" stroke-width="1.5"/>
-    <circle cx="86" cy="1644" r="5" stroke="#FFD23F" stroke-width="1.8"/>
-    <text x="100" y="1648" font-size="12" font-weight="700" letter-spacing="1.5" class="mono" fill="#FFD23F">#001 OPEN</text>
-    <text x="84" y="1682" font-size="17" class="sans" fill="#EAF3FA">Where ML ends and</text>
-    <text x="84" y="1706" font-size="17" class="sans" fill="#EAF3FA">systems engineering begins.</text>
-
-    <rect x="429" y="1618" width="342" height="108" fill="#EAF3FA" fill-opacity=".05" stroke="#EAF3FA" stroke-width="1.5"/>
-    <circle cx="451" cy="1644" r="5" stroke="#FFD23F" stroke-width="1.8"/>
-    <text x="465" y="1648" font-size="12" font-weight="700" letter-spacing="1.5" class="mono" fill="#FFD23F">#002 OPEN</text>
-    <text x="449" y="1682" font-size="17" class="sans" fill="#EAF3FA">How schedulers decide</text>
-    <text x="449" y="1706" font-size="17" class="sans" fill="#EAF3FA">what deserves to run next.</text>
-
-    <rect x="794" y="1618" width="342" height="108" fill="#EAF3FA" fill-opacity=".05" stroke="#EAF3FA" stroke-width="1.5"/>
-    <circle cx="816" cy="1644" r="5" stroke="#FFD23F" stroke-width="1.8"/>
-    <text x="830" y="1648" font-size="12" font-weight="700" letter-spacing="1.5" class="mono" fill="#FFD23F">#003 OPEN</text>
-    <text x="814" y="1682" font-size="17" class="sans" fill="#EAF3FA">Why some abstractions hold</text>
-    <text x="814" y="1706" font-size="17" class="sans" fill="#EAF3FA">while others leak immediately.</text>
-  </g>
-
-  <!-- ================= TITLE BLOCK ================= -->
-  <text x="64" y="1796" font-size="12" letter-spacing="1" class="mono" fill="#8FB0CC">coursework gathers dust · experiments do not.</text>
-
-  <rect x="600" y="1756" width="536" height="90" stroke="#EAF3FA" stroke-width="2"/>
-  <path d="M600 1786H1136M600 1816H1136M700 1756V1846" stroke="#EAF3FA" stroke-opacity=".7"/>
-  <g class="mono" font-size="11" letter-spacing="2" fill="#8FB0CC">
-    <text x="612" y="1776">DRAWN BY</text>
-    <text x="612" y="1806">ROLE</text>
-    <text x="612" y="1836">SITE</text>
-  </g>
-  <g class="mono" font-size="14" fill="#EAF3FA">
-    <text x="712" y="1776" font-weight="700">katta harsha vardhan</text>
-    <text x="712" y="1806">final-year aiml undergrad · systems tinkerer</text>
-    <text x="712" y="1836" fill="#FFD23F" font-weight="700">kattaharsha.dev</text>
-  </g>
+  <rect width="1200" height="2590" fill="#0D2B4A"/>
+  <rect width="1200" height="2590" fill="url(#minor)"/>
+  <rect width="1200" height="2590" fill="url(#major)"/>
+  <rect x="16" y="16" width="1168" height="2558" stroke="#EAF3FA" stroke-opacity=".45"/>
+  <rect x="32" y="32" width="1136" height="2526" stroke="#EAF3FA" stroke-width="2"/>
+<path d="M183 16V32" stroke="#EAF3FA" stroke-opacity=".45"/>
+<path d="M302 16V32" stroke="#EAF3FA" stroke-opacity=".45"/>
+<path d="M421 16V32" stroke="#EAF3FA" stroke-opacity=".45"/>
+<path d="M540 16V32" stroke="#EAF3FA" stroke-opacity=".45"/>
+<path d="M660 16V32" stroke="#EAF3FA" stroke-opacity=".45"/>
+<path d="M779 16V32" stroke="#EAF3FA" stroke-opacity=".45"/>
+<path d="M898 16V32" stroke="#EAF3FA" stroke-opacity=".45"/>
+<path d="M1017 16V32" stroke="#EAF3FA" stroke-opacity=".45"/>
+<text x="124" y="28" font-size="10" class="mono" fill="#8FB0CC" text-anchor="middle" >1</text>
+<text x="243" y="28" font-size="10" class="mono" fill="#8FB0CC" text-anchor="middle" >2</text>
+<text x="362" y="28" font-size="10" class="mono" fill="#8FB0CC" text-anchor="middle" >3</text>
+<text x="481" y="28" font-size="10" class="mono" fill="#8FB0CC" text-anchor="middle" >4</text>
+<text x="600" y="28" font-size="10" class="mono" fill="#8FB0CC" text-anchor="middle" >5</text>
+<text x="719" y="28" font-size="10" class="mono" fill="#8FB0CC" text-anchor="middle" >6</text>
+<text x="838" y="28" font-size="10" class="mono" fill="#8FB0CC" text-anchor="middle" >7</text>
+<text x="957" y="28" font-size="10" class="mono" fill="#8FB0CC" text-anchor="middle" >8</text>
+<text x="1076" y="28" font-size="10" class="mono" fill="#8FB0CC" text-anchor="middle" >9</text>
+<text x="24" y="161" font-size="10" class="mono" fill="#8FB0CC" text-anchor="middle" >A</text>
+<path d="M16 285H32" stroke="#EAF3FA" stroke-opacity=".45"/>
+<text x="24" y="414" font-size="10" class="mono" fill="#8FB0CC" text-anchor="middle" >B</text>
+<path d="M16 537H32" stroke="#EAF3FA" stroke-opacity=".45"/>
+<text x="24" y="666" font-size="10" class="mono" fill="#8FB0CC" text-anchor="middle" >C</text>
+<path d="M16 790H32" stroke="#EAF3FA" stroke-opacity=".45"/>
+<text x="24" y="919" font-size="10" class="mono" fill="#8FB0CC" text-anchor="middle" >D</text>
+<path d="M16 1042H32" stroke="#EAF3FA" stroke-opacity=".45"/>
+<text x="24" y="1172" font-size="10" class="mono" fill="#8FB0CC" text-anchor="middle" >E</text>
+<path d="M16 1295H32" stroke="#EAF3FA" stroke-opacity=".45"/>
+<text x="24" y="1424" font-size="10" class="mono" fill="#8FB0CC" text-anchor="middle" >F</text>
+<path d="M16 1548H32" stroke="#EAF3FA" stroke-opacity=".45"/>
+<text x="24" y="1677" font-size="10" class="mono" fill="#8FB0CC" text-anchor="middle" >G</text>
+<path d="M16 1800H32" stroke="#EAF3FA" stroke-opacity=".45"/>
+<text x="24" y="1930" font-size="10" class="mono" fill="#8FB0CC" text-anchor="middle" >H</text>
+<path d="M16 2053H32" stroke="#EAF3FA" stroke-opacity=".45"/>
+<text x="24" y="2182" font-size="10" class="mono" fill="#8FB0CC" text-anchor="middle" >I</text>
+<path d="M16 2305H32" stroke="#EAF3FA" stroke-opacity=".45"/>
+<text x="24" y="2435" font-size="10" class="mono" fill="#8FB0CC" text-anchor="middle" >J</text>
+<text x="64" y="62" font-size="15" class="mono" fill="#EAF3FA" font-weight="700" letter-spacing="1.5" >KATTA HARSHA VARDHAN</text>
+<text x="600" y="61" font-size="12" class="mono" fill="#8FB0CC" text-anchor="middle" letter-spacing="3" >DEVELOPER PROFILE — SHEET 1/1</text>
+<text x="1136" y="61" font-size="12" class="mono" fill="#8FB0CC" text-anchor="end" letter-spacing="2" >REV 2026.10</text>
+<line x1="32" y1="80" x2="1168" y2="80" stroke="#EAF3FA" stroke-opacity=".6" stroke-width="1" />
+<line x1="64" y1="116" x2="436" y2="116" stroke="#EAF3FA" stroke-width="1.2" marker-start="url(#arr)"/>
+<line x1="764" y1="116" x2="1136" y2="116" stroke="#EAF3FA" stroke-width="1.2" marker-end="url(#arr)"/>
+<path d="M64 104V128M1136 104V128" stroke="#EAF3FA" stroke-width="1.2"/>
+<text x="600" y="120" font-size="13" class="mono" fill="#EAF3FA" text-anchor="middle" letter-spacing="3" >BUILD → BREAK → UNDERSTAND</text>
+<text x="64" y="272" font-size="132" class="disp" fill="#EAF3FA" textLength="727" lengthAdjust="spacingAndGlyphs">BUILD TO</text>
+<text x="64" y="412" font-size="132" class="disp" fill="#EAF3FA" textLength="1000" lengthAdjust="spacingAndGlyphs">UNDERSTAND.</text>
+<rect x="64" y="428" width="1000" height="10" fill="#FFD23F"/>
+<g transform="rotate(-8 990 215)">
+  <circle cx="990" cy="215" r="72" stroke="#FFD23F" stroke-width="3"/><circle cx="990" cy="215" r="63" stroke="#FFD23F" stroke-width="1.2"/>
+  <text x="990" y="198" text-anchor="middle" font-size="14" font-weight="700" letter-spacing="2" class="mono" fill="#FFD23F">FINAL YEAR</text>
+  <text x="990" y="232" text-anchor="middle" font-size="32" class="disp" fill="#FFD23F">AIML</text>
+  <text x="990" y="252" text-anchor="middle" font-size="11" letter-spacing="2" class="mono" fill="#FFD23F">UNDERGRAD</text></g>
+<text x="64" y="500" font-size="24" class="sans" fill="#EAF3FA" font-weight="700" >I build full-stack products, ML systems and developer tools.</text>
+<text x="64" y="534" font-size="18" class="sans" fill="#EAF3FA" fill-opacity=".85" >Final-year AI &amp; ML undergrad in Bengaluru. Not a student who codes — a person who builds things to understand them,</text>
+<text x="64" y="562" font-size="18" class="sans" fill="#EAF3FA" fill-opacity=".85" >then breaks them to understand them better.</text>
+<rect x="64" y="596" width="89" height="34" fill="none" stroke="#EAF3FA" stroke-width="1.5"/>
+<text x="108.5" y="618" font-size="12" class="mono" fill="#EAF3FA" font-weight="700" text-anchor="middle" letter-spacing="1.5" >AI &amp; ML</text>
+<rect x="167" y="596" width="115" height="34" fill="none" stroke="#EAF3FA" stroke-width="1.5"/>
+<text x="224.5" y="618" font-size="12" class="mono" fill="#EAF3FA" font-weight="700" text-anchor="middle" letter-spacing="1.5" >FULL-STACK</text>
+<rect x="296" y="596" width="80" height="34" fill="none" stroke="#EAF3FA" stroke-width="1.5"/>
+<text x="336.0" y="618" font-size="12" class="mono" fill="#EAF3FA" font-weight="700" text-anchor="middle" letter-spacing="1.5" >MOBILE</text>
+<rect x="390" y="596" width="89" height="34" fill="none" stroke="#EAF3FA" stroke-width="1.5"/>
+<text x="434.5" y="618" font-size="12" class="mono" fill="#EAF3FA" font-weight="700" text-anchor="middle" letter-spacing="1.5" >SYSTEMS</text>
+<line x1="64" y1="668" x2="1136" y2="668" stroke="#EAF3FA" stroke-opacity=".3" stroke-width="1" />
+<text x="64" y="724" font-size="44" class="disp" fill="#EAF3FA" letter-spacing="1" >SELECTED WORK</text>
+<text x="64" y="756" font-size="16" class="sans" fill="#EAF3FA" fill-opacity=".8" >Three projects that show the range: ML, full-stack and developer tooling.</text>
+<rect x="64" y="784" width="1072" height="168" fill="#EAF3FA" fill-opacity=".04" stroke="#EAF3FA" stroke-width="1.5"/>
+<line x1="880" y1="784" x2="880" y2="952" stroke="#EAF3FA" stroke-opacity=".55" stroke-width="1" />
+<text x="84" y="814" font-size="11" class="mono" fill="#FFD23F" letter-spacing="2" >ML · FINAL-YEAR MAJOR PROJECT</text>
+<text x="84" y="856" font-size="36" class="disp" fill="#EAF3FA" letter-spacing="0.5" >DEEPFAKE AUDIO DETECTION</text>
+<text x="84" y="884" font-size="15" class="sans" fill="#EAF3FA" fill-opacity=".9" >Spots synthetic speech. Wav2Vec2 model built with PyTorch and HuggingFace, served through</text>
+<text x="84" y="904" font-size="15" class="sans" fill="#EAF3FA" fill-opacity=".9" >FastAPI, shipped in Docker, with a Flutter front end. Best validation EER: 0.25%.</text>
+<rect x="84" y="920" width="66" height="22" fill="none" stroke="#EAF3FA" stroke-opacity=".7" stroke-width="1.2"/>
+<text x="117.0" y="935" font-size="11" class="mono" fill="#EAF3FA" text-anchor="middle" >Flutter</text>
+<rect x="158" y="920" width="66" height="22" fill="none" stroke="#EAF3FA" stroke-opacity=".7" stroke-width="1.2"/>
+<text x="191.0" y="935" font-size="11" class="mono" fill="#EAF3FA" text-anchor="middle" >FastAPI</text>
+<rect x="232" y="920" width="66" height="22" fill="none" stroke="#EAF3FA" stroke-opacity=".7" stroke-width="1.2"/>
+<text x="265.0" y="935" font-size="11" class="mono" fill="#EAF3FA" text-anchor="middle" >PyTorch</text>
+<rect x="306" y="920" width="73" height="22" fill="none" stroke="#EAF3FA" stroke-opacity=".7" stroke-width="1.2"/>
+<text x="342.5" y="935" font-size="11" class="mono" fill="#EAF3FA" text-anchor="middle" >Wav2Vec2</text>
+<rect x="387" y="920" width="93" height="22" fill="none" stroke="#EAF3FA" stroke-opacity=".7" stroke-width="1.2"/>
+<text x="433.5" y="935" font-size="11" class="mono" fill="#EAF3FA" text-anchor="middle" >HuggingFace</text>
+<rect x="488" y="920" width="60" height="22" fill="none" stroke="#EAF3FA" stroke-opacity=".7" stroke-width="1.2"/>
+<text x="518.0" y="935" font-size="11" class="mono" fill="#EAF3FA" text-anchor="middle" >Docker</text>
+<text x="1008" y="866" font-size="54" class="disp" fill="#EAF3FA" text-anchor="middle" >0.25%</text>
+<rect x="968" y="878" width="80" height="4" fill="#FFD23F"/>
+<text x="1008" y="906" font-size="11" class="mono" fill="#8FB0CC" text-anchor="middle" letter-spacing="1.5" >BEST EER</text>
+<text x="1008" y="924" font-size="11" class="mono" fill="#8FB0CC" text-anchor="middle" letter-spacing="1" >ASVspoof2019 LA VALIDATION</text>
+<rect x="64" y="970" width="1072" height="168" fill="#EAF3FA" fill-opacity=".04" stroke="#EAF3FA" stroke-width="1.5"/>
+<line x1="880" y1="970" x2="880" y2="1138" stroke="#EAF3FA" stroke-opacity=".55" stroke-width="1" />
+<text x="84" y="1000" font-size="11" class="mono" fill="#FFD23F" letter-spacing="2" >FULL-STACK · BUILT FOR SVIT CSE</text>
+<text x="84" y="1042" font-size="36" class="disp" fill="#EAF3FA" letter-spacing="0.5" >HACKFEST 2026 PLATFORM</text>
+<text x="84" y="1070" font-size="15" class="sans" fill="#EAF3FA" fill-opacity=".9" >End to end platform for a 24-hour national hackathon: landing page, participant portal for</text>
+<text x="84" y="1090" font-size="15" class="sans" fill="#EAF3FA" fill-opacity=".9" >teams and submissions, admin center for judging and audit logs, public certificate check.</text>
+<rect x="84" y="1106" width="86" height="22" fill="none" stroke="#EAF3FA" stroke-opacity=".7" stroke-width="1.2"/>
+<text x="127.0" y="1121" font-size="11" class="mono" fill="#EAF3FA" text-anchor="middle" >Next.js 16</text>
+<rect x="178" y="1106" width="73" height="22" fill="none" stroke="#EAF3FA" stroke-opacity=".7" stroke-width="1.2"/>
+<text x="214.5" y="1121" font-size="11" class="mono" fill="#EAF3FA" text-anchor="middle" >React 19</text>
+<rect x="259" y="1106" width="86" height="22" fill="none" stroke="#EAF3FA" stroke-opacity=".7" stroke-width="1.2"/>
+<text x="302.0" y="1121" font-size="11" class="mono" fill="#EAF3FA" text-anchor="middle" >TypeScript</text>
+<rect x="353" y="1106" width="93" height="22" fill="none" stroke="#EAF3FA" stroke-opacity=".7" stroke-width="1.2"/>
+<text x="399.5" y="1121" font-size="11" class="mono" fill="#EAF3FA" text-anchor="middle" >Tailwind v4</text>
+<rect x="454" y="1106" width="73" height="22" fill="none" stroke="#EAF3FA" stroke-opacity=".7" stroke-width="1.2"/>
+<text x="490.5" y="1121" font-size="11" class="mono" fill="#EAF3FA" text-anchor="middle" >Supabase</text>
+<rect x="535" y="1106" width="73" height="22" fill="none" stroke="#EAF3FA" stroke-opacity=".7" stroke-width="1.2"/>
+<text x="571.5" y="1121" font-size="11" class="mono" fill="#EAF3FA" text-anchor="middle" >Three.js</text>
+<text x="1008" y="1052" font-size="54" class="disp" fill="#EAF3FA" text-anchor="middle" >24H</text>
+<rect x="968" y="1064" width="80" height="4" fill="#FFD23F"/>
+<text x="1008" y="1092" font-size="11" class="mono" fill="#8FB0CC" text-anchor="middle" letter-spacing="1.5" >NATIONAL HACKATHON</text>
+<text x="1008" y="1110" font-size="11" class="mono" fill="#8FB0CC" text-anchor="middle" letter-spacing="1" >OCT 8–9, 2026 · BENGALURU</text>
+<rect x="64" y="1156" width="1072" height="168" fill="#EAF3FA" fill-opacity=".04" stroke="#EAF3FA" stroke-width="1.5"/>
+<line x1="880" y1="1156" x2="880" y2="1324" stroke="#EAF3FA" stroke-opacity=".55" stroke-width="1" />
+<text x="84" y="1186" font-size="11" class="mono" fill="#FFD23F" letter-spacing="2" >DEV TOOL · PUBLISHED ON NPM</text>
+<text x="84" y="1228" font-size="36" class="disp" fill="#EAF3FA" letter-spacing="0.5" >TERMNAV</text>
+<text x="84" y="1256" font-size="15" class="sans" fill="#EAF3FA" fill-opacity=".9" >A keyboard-driven terminal navigator for Windows PowerShell with zero dependencies. UI renders</text>
+<text x="84" y="1276" font-size="15" class="sans" fill="#EAF3FA" fill-opacity=".9" >to stderr so stdout stays clean for piping. Install it as @harshakatta/termnav.</text>
+<rect x="84" y="1292" width="66" height="22" fill="none" stroke="#EAF3FA" stroke-opacity=".7" stroke-width="1.2"/>
+<text x="117.0" y="1307" font-size="11" class="mono" fill="#EAF3FA" text-anchor="middle" >Node.js</text>
+<rect x="158" y="1292" width="40" height="22" fill="none" stroke="#EAF3FA" stroke-opacity=".7" stroke-width="1.2"/>
+<text x="178.0" y="1307" font-size="11" class="mono" fill="#EAF3FA" text-anchor="middle" >npm</text>
+<rect x="206" y="1292" width="86" height="22" fill="none" stroke="#EAF3FA" stroke-opacity=".7" stroke-width="1.2"/>
+<text x="249.0" y="1307" font-size="11" class="mono" fill="#EAF3FA" text-anchor="middle" >PowerShell</text>
+<rect x="300" y="1292" width="79" height="22" fill="none" stroke="#EAF3FA" stroke-opacity=".7" stroke-width="1.2"/>
+<text x="339.5" y="1307" font-size="11" class="mono" fill="#EAF3FA" text-anchor="middle" >SGR mouse</text>
+<text x="1008" y="1238" font-size="54" class="disp" fill="#EAF3FA" text-anchor="middle" >0 DEPS</text>
+<rect x="968" y="1250" width="80" height="4" fill="#FFD23F"/>
+<text x="1008" y="1278" font-size="11" class="mono" fill="#8FB0CC" text-anchor="middle" letter-spacing="1.5" >RUNTIME DEPENDENCIES</text>
+<text x="1008" y="1296" font-size="11" class="mono" fill="#8FB0CC" text-anchor="middle" letter-spacing="1" >ON NPM</text>
+<line x1="64" y1="1348" x2="1136" y2="1348" stroke="#EAF3FA" stroke-opacity=".3" stroke-width="1" />
+<text x="64" y="1404" font-size="44" class="disp" fill="#EAF3FA" letter-spacing="1" >ALSO BUILT</text>
+<text x="64" y="1436" font-size="16" class="sans" fill="#EAF3FA" fill-opacity=".8" >More of the surface area: creative code, tools, systems and hackathon builds.</text>
+<rect x="64" y="1464" width="342" height="118" fill="#EAF3FA" fill-opacity=".04" stroke="#EAF3FA" stroke-width="1.5"/>
+<text x="80" y="1488" font-size="10" class="mono" fill="#8FB0CC" letter-spacing="2" >CREATIVE</text>
+<text x="80" y="1516" font-size="18" class="mono" fill="#EAF3FA" font-weight="700" >inkField</text>
+<text x="80" y="1540" font-size="14" class="sans" fill="#EAF3FA" fill-opacity=".88" >Digital ink painting in WebGL and GLSL,</text>
+<text x="80" y="1557" font-size="14" class="sans" fill="#EAF3FA" fill-opacity=".88" >wrapped for mobile with Flutter.</text>
+<rect x="429" y="1464" width="342" height="118" fill="#EAF3FA" fill-opacity=".04" stroke="#EAF3FA" stroke-width="1.5"/>
+<text x="445" y="1488" font-size="10" class="mono" fill="#8FB0CC" letter-spacing="2" >GRAPHICS</text>
+<rect x="689" y="1474" width="66" height="20" fill="#FFD23F"/>
+<text x="722.0" y="1488" font-size="10" class="mono" fill="#0D2B4A" font-weight="700" text-anchor="middle" letter-spacing="1" >ACTIVE</text>
+<text x="445" y="1516" font-size="18" class="mono" fill="#EAF3FA" font-weight="700" >MorphStudio</text>
+<text x="445" y="1540" font-size="14" class="sans" fill="#EAF3FA" fill-opacity=".88" >Graphics and vector work that</text>
+<text x="445" y="1557" font-size="14" class="sans" fill="#EAF3FA" fill-opacity=".88" >outgrew a weekend curiosity.</text>
+<rect x="794" y="1464" width="342" height="118" fill="#EAF3FA" fill-opacity=".04" stroke="#EAF3FA" stroke-width="1.5"/>
+<text x="810" y="1488" font-size="10" class="mono" fill="#8FB0CC" letter-spacing="2" >TOOLS</text>
+<rect x="1054" y="1474" width="66" height="20" fill="#FFD23F"/>
+<text x="1087.0" y="1488" font-size="10" class="mono" fill="#0D2B4A" font-weight="700" text-anchor="middle" letter-spacing="1" >ACTIVE</text>
+<text x="810" y="1516" font-size="18" class="mono" fill="#EAF3FA" font-weight="700" >Doclayer</text>
+<text x="810" y="1540" font-size="14" class="sans" fill="#EAF3FA" fill-opacity=".88" >Word automation system.</text>
+<rect x="64" y="1596" width="342" height="118" fill="#EAF3FA" fill-opacity=".04" stroke="#EAF3FA" stroke-width="1.5"/>
+<text x="80" y="1620" font-size="10" class="mono" fill="#8FB0CC" letter-spacing="2" >SYSTEMS</text>
+<rect x="347" y="1606" width="43" height="20" fill="none" stroke="#EAF3FA" stroke-width="1.2"/>
+<text x="368.5" y="1620" font-size="10" class="mono" fill="#EAF3FA" font-weight="700" text-anchor="middle" letter-spacing="1" >WIP</text>
+<text x="80" y="1648" font-size="18" class="mono" fill="#EAF3FA" font-weight="700" >Nexis</text>
+<text x="80" y="1672" font-size="14" class="sans" fill="#EAF3FA" fill-opacity=".88" >Distributed systems — because one</text>
+<text x="80" y="1689" font-size="14" class="sans" fill="#EAF3FA" fill-opacity=".88" >machine was never enough.</text>
+<rect x="429" y="1596" width="342" height="118" fill="#EAF3FA" fill-opacity=".04" stroke="#EAF3FA" stroke-width="1.5"/>
+<text x="445" y="1620" font-size="10" class="mono" fill="#8FB0CC" letter-spacing="2" >SYSTEMS</text>
+<rect x="682" y="1606" width="73" height="20" fill="none" stroke="#EAF3FA" stroke-width="1.2" stroke-dasharray="4 3"/>
+<text x="718.5" y="1620" font-size="10" class="mono" fill="#EAF3FA" font-weight="700" text-anchor="middle" letter-spacing="1" >ONGOING</text>
+<text x="445" y="1648" font-size="18" class="mono" fill="#EAF3FA" font-weight="700" >Orbit</text>
+<text x="445" y="1672" font-size="14" class="sans" fill="#EAF3FA" fill-opacity=".88" >An operating system from scratch —</text>
+<text x="445" y="1689" font-size="14" class="sans" fill="#EAF3FA" fill-opacity=".88" >probably never finished,</text>
+<text x="445" y="1706" font-size="14" class="sans" fill="#EAF3FA" fill-opacity=".88" >always instructive.</text>
+<rect x="794" y="1596" width="342" height="118" fill="#EAF3FA" fill-opacity=".04" stroke="#EAF3FA" stroke-width="1.5"/>
+<text x="810" y="1620" font-size="10" class="mono" fill="#8FB0CC" letter-spacing="2" >HACKATHON</text>
+<text x="810" y="1648" font-size="18" class="mono" fill="#EAF3FA" font-weight="700" >MemoryForge</text>
+<text x="810" y="1672" font-size="14" class="sans" fill="#EAF3FA" fill-opacity=".88" >Adaptive flashcards built on the</text>
+<text x="810" y="1689" font-size="14" class="sans" fill="#EAF3FA" fill-opacity=".88" >Ebbinghaus forgetting curve.</text>
+<text x="64" y="1750" font-size="12" class="mono" fill="#8FB0CC" >ALSO: SecureFile-X · DiskWizard · Interview Co-Pilot · Stayza · Textflow · VTU result scraper</text>
+<text x="64" y="1772" font-size="12" class="mono" fill="#8FB0CC" xml:space="preserve">       Flutter document scanner · Android cellular diagnostics app</text>
+<line x1="64" y1="1804" x2="1136" y2="1804" stroke="#EAF3FA" stroke-opacity=".3" stroke-width="1" />
+<text x="64" y="1860" font-size="44" class="disp" fill="#EAF3FA" letter-spacing="1" >STACK</text>
+<rect x="64" y="1884" width="540" height="180" stroke="#EAF3FA" stroke-width="1.5"/>
+<line x1="192" y1="1884" x2="192" y2="2064" stroke="#EAF3FA" stroke-opacity=".55" stroke-width="1" />
+<text x="76" y="1907" font-size="11" class="mono" fill="#8FB0CC" letter-spacing="2" >FRONT-END</text>
+<text x="204" y="1907" font-size="14" class="sans" fill="#EAF3FA" >Next.js · React · TypeScript · Tailwind · GSAP</text>
+<line x1="64" y1="1920" x2="604" y2="1920" stroke="#EAF3FA" stroke-opacity=".55" stroke-width="1" />
+<text x="76" y="1943" font-size="11" class="mono" fill="#8FB0CC" letter-spacing="2" >MOBILE</text>
+<text x="204" y="1943" font-size="14" class="sans" fill="#EAF3FA" >Flutter · Kotlin · Jetpack Compose</text>
+<line x1="64" y1="1956" x2="604" y2="1956" stroke="#EAF3FA" stroke-opacity=".55" stroke-width="1" />
+<text x="76" y="1979" font-size="11" class="mono" fill="#8FB0CC" letter-spacing="2" >BACK-END</text>
+<text x="204" y="1979" font-size="14" class="sans" fill="#EAF3FA" >FastAPI · Node · Express · Supabase · Docker</text>
+<line x1="64" y1="1992" x2="604" y2="1992" stroke="#EAF3FA" stroke-opacity=".55" stroke-width="1" />
+<text x="76" y="2015" font-size="11" class="mono" fill="#8FB0CC" letter-spacing="2" >ML &amp; DATA</text>
+<text x="204" y="2015" font-size="14" class="sans" fill="#EAF3FA" >PyTorch · Wav2Vec2 · HuggingFace · DINOv2 · OpenCV</text>
+<line x1="64" y1="2028" x2="604" y2="2028" stroke="#EAF3FA" stroke-opacity=".55" stroke-width="1" />
+<text x="76" y="2051" font-size="11" class="mono" fill="#8FB0CC" letter-spacing="2" >GRAPHICS</text>
+<text x="204" y="2051" font-size="14" class="sans" fill="#EAF3FA" >WebGL · GLSL · Three.js · Framer Motion</text>
+<rect x="64" y="2096" width="540" height="108" stroke="#EAF3FA" stroke-width="1.5"/>
+<line x1="192" y1="2096" x2="192" y2="2204" stroke="#EAF3FA" stroke-opacity=".55" stroke-width="1" />
+<text x="76" y="2119" font-size="11" class="mono" fill="#8FB0CC" letter-spacing="2" >EDUCATION</text>
+<text x="204" y="2119" font-size="14" class="sans" fill="#EAF3FA" >B.E. CSE (AI &amp; ML) · SVIT, VTU · 2027</text>
+<line x1="64" y1="2132" x2="604" y2="2132" stroke="#EAF3FA" stroke-opacity=".55" stroke-width="1" />
+<text x="76" y="2155" font-size="11" class="mono" fill="#8FB0CC" letter-spacing="2" >LEADS</text>
+<text x="204" y="2155" font-size="14" class="sans" fill="#EAF3FA" >PR Head, CODENEX club</text>
+<line x1="64" y1="2168" x2="604" y2="2168" stroke="#EAF3FA" stroke-opacity=".55" stroke-width="1" />
+<text x="76" y="2191" font-size="11" class="mono" fill="#8FB0CC" letter-spacing="2" >ALSO</text>
+<text x="204" y="2191" font-size="14" class="sans" fill="#EAF3FA" >Technical team, Sanchalana Samvega fest</text>
+<text x="636" y="1860" font-size="44" class="disp" fill="#EAF3FA" letter-spacing="1" >HOW I WORK</text>
+<text x="636" y="1892" font-size="15" class="sans" fill="#EAF3FA" fill-opacity=".88" >Product owner and technical decision-maker</text>
+<text x="636" y="1914" font-size="15" class="sans" fill="#EAF3FA" fill-opacity=".88" >on every project. AI coding tools implement</text>
+<text x="636" y="1936" font-size="15" class="sans" fill="#EAF3FA" fill-opacity=".88" >from master prompts I design.</text>
+<path class="flow" d="M660 1997 V2005" stroke="#EAF3FA" stroke-width="2" marker-end="url(#arr)"/>
+<path class="flow" d="M660 2037 V2045" stroke="#EAF3FA" stroke-width="2" marker-end="url(#arr)"/>
+<path class="flow" d="M660 2077 V2085" stroke="#EAF3FA" stroke-width="2" marker-end="url(#arr)"/>
+<path class="flow" d="M660 2117 V2125" stroke="#EAF3FA" stroke-width="2" marker-end="url(#arr)"/>
+<path class="flow" d="M960 2142 H1090 V1982 H960" stroke="#EAF3FA" stroke-width="2" marker-end="url(#arr)"/>
+<text x="1076" y="2058" font-size="12" class="mono" fill="#EAF3FA" text-anchor="end" >↻ loops back to 01</text>
+<text x="1076" y="2076" font-size="12" class="mono" fill="#8FB0CC" text-anchor="end" >next confusing thing</text>
+<circle cx="660" cy="1982" r="14" fill="#0D2B4A" stroke="#EAF3FA" stroke-width="2"/>
+<text x="660" y="1986.5" font-size="12" class="mono" fill="#EAF3FA" font-weight="700" text-anchor="middle" >01</text>
+<text x="686" y="1987.5" font-size="16" class="sans" fill="#EAF3FA" font-weight="600" >encounter something confusing</text>
+<circle cx="660" cy="2022" r="14" fill="#0D2B4A" stroke="#EAF3FA" stroke-width="2"/>
+<text x="660" y="2026.5" font-size="12" class="mono" fill="#EAF3FA" font-weight="700" text-anchor="middle" >02</text>
+<text x="686" y="2027.5" font-size="16" class="sans" fill="#EAF3FA" font-weight="600" >build the smallest version</text>
+<circle cx="660" cy="2062" r="14" fill="#FFD23F" stroke="#FFD23F" stroke-width="2"/>
+<text x="660" y="2066.5" font-size="12" class="mono" fill="#0D2B4A" font-weight="700" text-anchor="middle" >03</text>
+<text x="686" y="2067.5" font-size="16" class="sans" fill="#FFD23F" font-weight="600" >break it on purpose</text>
+<circle cx="660" cy="2102" r="14" fill="#0D2B4A" stroke="#EAF3FA" stroke-width="2"/>
+<text x="660" y="2106.5" font-size="12" class="mono" fill="#EAF3FA" font-weight="700" text-anchor="middle" >04</text>
+<text x="686" y="2107.5" font-size="16" class="sans" fill="#EAF3FA" font-weight="600" >understand the failure</text>
+<circle cx="660" cy="2142" r="14" fill="#0D2B4A" stroke="#EAF3FA" stroke-width="2"/>
+<text x="660" y="2146.5" font-size="12" class="mono" fill="#EAF3FA" font-weight="700" text-anchor="middle" >05</text>
+<text x="686" y="2147.5" font-size="16" class="sans" fill="#EAF3FA" font-weight="600" >rebuild it properly</text>
+<line x1="64" y1="2236" x2="1136" y2="2236" stroke="#EAF3FA" stroke-opacity=".3" stroke-width="1" />
+<text x="64" y="2292" font-size="44" class="disp" fill="#EAF3FA" letter-spacing="1" >OPEN QUESTIONS</text>
+<rect x="64" y="2316" width="342" height="108" fill="#EAF3FA" fill-opacity=".05" stroke="#EAF3FA" stroke-width="1.5"/>
+<circle cx="86" cy="2342" r="5" stroke="#FFD23F" stroke-width="1.8"/>
+<text x="100" y="2346" font-size="12" class="mono" fill="#FFD23F" font-weight="700" letter-spacing="1.5" >#001 OPEN</text>
+<text x="84" y="2380" font-size="17" class="sans" fill="#EAF3FA" >Where ML ends and</text>
+<text x="84" y="2404" font-size="17" class="sans" fill="#EAF3FA" >systems engineering begins.</text>
+<rect x="429" y="2316" width="342" height="108" fill="#EAF3FA" fill-opacity=".05" stroke="#EAF3FA" stroke-width="1.5"/>
+<circle cx="451" cy="2342" r="5" stroke="#FFD23F" stroke-width="1.8"/>
+<text x="465" y="2346" font-size="12" class="mono" fill="#FFD23F" font-weight="700" letter-spacing="1.5" >#002 OPEN</text>
+<text x="449" y="2380" font-size="17" class="sans" fill="#EAF3FA" >How schedulers decide</text>
+<text x="449" y="2404" font-size="17" class="sans" fill="#EAF3FA" >what deserves to run next.</text>
+<rect x="794" y="2316" width="342" height="108" fill="#EAF3FA" fill-opacity=".05" stroke="#EAF3FA" stroke-width="1.5"/>
+<circle cx="816" cy="2342" r="5" stroke="#FFD23F" stroke-width="1.8"/>
+<text x="830" y="2346" font-size="12" class="mono" fill="#FFD23F" font-weight="700" letter-spacing="1.5" >#003 OPEN</text>
+<text x="814" y="2380" font-size="17" class="sans" fill="#EAF3FA" >Why some abstractions hold</text>
+<text x="814" y="2404" font-size="17" class="sans" fill="#EAF3FA" >while others leak immediately.</text>
+<text x="64" y="2528" font-size="12" class="mono" fill="#8FB0CC" letter-spacing="1" >coursework gathers dust · experiments do not.</text>
+<rect x="600" y="2456" width="536" height="90" stroke="#EAF3FA" stroke-width="2"/>
+<path d="M600 2486H1136M600 2516H1136M700 2456V2546" stroke="#EAF3FA" stroke-opacity=".7"/>
+<text x="612" y="2476" font-size="11" class="mono" fill="#8FB0CC" letter-spacing="2" >DRAWN BY</text>
+<text x="712" y="2476" font-size="14" class="mono" fill="#EAF3FA" font-weight="700" >katta harsha vardhan</text>
+<text x="612" y="2506" font-size="11" class="mono" fill="#8FB0CC" letter-spacing="2" >SITE</text>
+<text x="712" y="2506" font-size="14" class="mono" fill="#FFD23F" font-weight="700" >kattaharsha.dev</text>
+<text x="612" y="2536" font-size="11" class="mono" fill="#8FB0CC" letter-spacing="2" >NPM</text>
+<text x="712" y="2536" font-size="14" class="mono" fill="#FFD23F" font-weight="700" >@harshakatta/termnav</text>
 </svg>
