@@ -1,7 +1,7 @@
 <svg
   width="1200"
-  height="1990"
-  viewBox="0 0 1200 1990"
+  height="1900"
+  viewBox="0 0 1200 1900"
   fill="none"
   xmlns="http://www.w3.org/2000/svg"
   role="img"
@@ -9,22 +9,30 @@
 >
   <title id="title">Harsha — Developer Profile</title>
   <desc id="desc">
-    A neo-brutalist developer profile: identity, active builds,
-    the build/break/rebuild loop, and open questions.
+    A blueprint-style drawing sheet: headline thesis, a parts list of active
+    builds, the build/break/rebuild loop drawn as a feedback schematic,
+    open questions, and a title block.
   </desc>
 
   <defs>
-    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
-      <path d="M40 0H0V40" stroke="#111111" stroke-opacity=".07" stroke-width="1"/>
+    <pattern id="minor" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M24 0H0V24" stroke="#5C8DB5" stroke-opacity=".10" stroke-width="1"/>
+    </pattern>
+    <pattern id="major" width="120" height="120" patternUnits="userSpaceOnUse">
+      <path d="M120 0H0V120" stroke="#5C8DB5" stroke-opacity=".20" stroke-width="1"/>
     </pattern>
 
-    <style>
-      .heavy { font-family: "Archivo Black","Arial Black","Helvetica Neue",Impact,sans-serif; font-weight: 900; }
-      .sans  { font-family: "Inter","Segoe UI",Helvetica,Arial,sans-serif; }
-      .mono  { font-family: "JetBrains Mono","SFMono-Regular",Menlo,Consolas,monospace; }
+    <marker id="arr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#EAF3FA"/>
+    </marker>
 
-      .wobble { animation: wobble 3s ease-in-out infinite alternate; transform-box: fill-box; transform-origin: center; }
-      @keyframes wobble { from { transform: rotate(-12deg); } to { transform: rotate(-6deg); } }
+    <style>
+      .disp { font-family: "Oswald","Bebas Neue","Archivo Narrow","Arial Narrow","Helvetica Neue",Impact,sans-serif; font-weight: 700; }
+      .mono { font-family: "JetBrains Mono","SFMono-Regular",Menlo,Consolas,monospace; }
+      .sans { font-family: "Inter","Segoe UI",Helvetica,Arial,sans-serif; }
+
+      .flow { stroke-dasharray: 6 8; animation: flow 1.4s linear infinite; }
+      @keyframes flow { to { stroke-dashoffset: -14; } }
 
       @media (prefers-reduced-motion: reduce) {
         * { animation: none !important; }
@@ -32,193 +40,217 @@
     </style>
   </defs>
 
-  <!-- ================= BACKGROUND ================= -->
-  <rect width="1200" height="1990" fill="#F3EFE4"/>
-  <rect width="1200" height="1990" fill="url(#grid)"/>
+  <!-- ================= SHEET ================= -->
+  <rect width="1200" height="1900" fill="#0D2B4A"/>
+  <rect width="1200" height="1900" fill="url(#minor)"/>
+  <rect width="1200" height="1900" fill="url(#major)"/>
 
-  <!-- ================= TOP BAR ================= -->
-  <rect width="1200" height="64" fill="#111111"/>
-  <text x="64" y="40" font-size="18" font-weight="700" class="mono" fill="#FFFFFF">harsha<tspan fill="#C8F43A">@katta</tspan></text>
-  <text x="600" y="40" text-anchor="middle" font-size="13" letter-spacing="2" class="mono" fill="#8B8B8B">★ BUILD ★ BREAK ★ UNDERSTAND ★</text>
-  <text x="1136" y="40" text-anchor="end" font-size="15" font-weight="700" class="mono" fill="#C8F43A">kattaharsha.dev</text>
+  <rect x="16" y="16" width="1168" height="1868" stroke="#EAF3FA" stroke-opacity=".45" stroke-width="1"/>
+  <rect x="32" y="32" width="1136" height="1836" stroke="#EAF3FA" stroke-width="2"/>
+
+  <!-- zone ticks: columns 1-9 along the top, rows A-J down the left -->
+  <g stroke="#EAF3FA" stroke-opacity=".45">
+    <path d="M183 16V32M302 16V32M421 16V32M540 16V32M660 16V32M779 16V32M898 16V32M1017 16V32"/>
+    <path d="M16 215H32M16 399H32M16 583H32M16 766H32M16 950H32M16 1134H32M16 1318H32M16 1501H32M16 1685H32"/>
+  </g>
+  <g class="mono" font-size="10" fill="#8FB0CC" text-anchor="middle">
+    <text x="124" y="28">1</text><text x="243" y="28">2</text><text x="362" y="28">3</text>
+    <text x="481" y="28">4</text><text x="600" y="28">5</text><text x="719" y="28">6</text>
+    <text x="838" y="28">7</text><text x="957" y="28">8</text><text x="1076" y="28">9</text>
+    <text x="24" y="127">A</text><text x="24" y="307">B</text><text x="24" y="491">C</text>
+    <text x="24" y="675">D</text><text x="24" y="858">E</text><text x="24" y="1042">F</text>
+    <text x="24" y="1226">G</text><text x="24" y="1410">H</text><text x="24" y="1593">I</text>
+    <text x="24" y="1777">J</text>
+  </g>
+
+  <!-- ================= HEADER ================= -->
+  <text x="64" y="62" font-size="16" font-weight="700" class="mono" fill="#EAF3FA">harsha<tspan fill="#FFD23F">@</tspan>katta</text>
+  <text x="600" y="61" text-anchor="middle" font-size="12" letter-spacing="3" class="mono" fill="#8FB0CC">DEVELOPER PROFILE — SHEET 1/1</text>
+  <text x="1136" y="61" text-anchor="end" font-size="12" letter-spacing="2" class="mono" fill="#8FB0CC">REV 2026.10</text>
+  <line x1="32" y1="80" x2="1168" y2="80" stroke="#EAF3FA" stroke-opacity=".6"/>
 
   <!-- ================= HERO ================= -->
-  <text x="64" y="206" font-size="100" class="heavy" fill="#111111" textLength="900" lengthAdjust="spacingAndGlyphs">I BUILD THINGS</text>
+  <!-- dimension line -->
+  <line x1="64" y1="116" x2="436" y2="116" stroke="#EAF3FA" stroke-width="1.2" marker-start="url(#arr)"/>
+  <line x1="764" y1="116" x2="1136" y2="116" stroke="#EAF3FA" stroke-width="1.2" marker-end="url(#arr)"/>
+  <path d="M64 104V128M1136 104V128" stroke="#EAF3FA" stroke-width="1.2"/>
+  <text x="600" y="120" text-anchor="middle" font-size="13" letter-spacing="3" class="mono" fill="#EAF3FA">BUILD → BREAK → UNDERSTAND</text>
 
-  <!-- highlighted BREAK -->
-  <rect x="244" y="236" width="468" height="100" fill="#111111"/>
-  <rect x="236" y="228" width="468" height="100" fill="#FF5C9D" stroke="#111111" stroke-width="4"/>
-  <text x="64" y="316" font-size="100" class="heavy" fill="#111111" textLength="150" lengthAdjust="spacingAndGlyphs">TO</text>
-  <text x="252" y="316" font-size="100" class="heavy" fill="#111111" textLength="436" lengthAdjust="spacingAndGlyphs">BREAK</text>
-  <text x="730" y="316" font-size="100" class="heavy" fill="#111111" textLength="400" lengthAdjust="spacingAndGlyphs">THEM.</text>
+  <text x="64" y="272" font-size="132" class="disp" fill="#EAF3FA" textLength="727" lengthAdjust="spacingAndGlyphs">BUILD TO</text>
+  <text x="64" y="412" font-size="132" class="disp" fill="#EAF3FA" textLength="1000" lengthAdjust="spacingAndGlyphs">UNDERSTAND.</text>
+  <rect x="64" y="428" width="1000" height="10" fill="#FFD23F"/>
 
-  <!-- sticker -->
-  <g class="wobble">
-    <circle cx="1076" cy="140" r="60" fill="#111111" transform="translate(5 5)"/>
-    <circle cx="1076" cy="140" r="60" fill="#C8F43A" stroke="#111111" stroke-width="4"/>
-    <text x="1076" y="128" text-anchor="middle" font-size="15" class="mono" font-weight="700" fill="#111111">FINAL</text>
-    <text x="1076" y="148" text-anchor="middle" font-size="15" class="mono" font-weight="700" fill="#111111">YEAR</text>
-    <text x="1076" y="168" text-anchor="middle" font-size="15" class="mono" font-weight="700" fill="#111111">AIML</text>
+  <!-- stamp -->
+  <g transform="rotate(-8 990 215)">
+    <circle cx="990" cy="215" r="72" stroke="#FFD23F" stroke-width="3"/>
+    <circle cx="990" cy="215" r="63" stroke="#FFD23F" stroke-width="1.2"/>
+    <text x="990" y="198" text-anchor="middle" font-size="14" font-weight="700" letter-spacing="2" class="mono" fill="#FFD23F">FINAL YEAR</text>
+    <text x="990" y="232" text-anchor="middle" font-size="32" class="disp" fill="#FFD23F">AIML</text>
+    <text x="990" y="252" text-anchor="middle" font-size="11" letter-spacing="2" class="mono" fill="#FFD23F">UNDERGRAD</text>
   </g>
-
-  <!-- identity -->
-  <text x="64" y="388" font-size="18" class="mono" fill="#111111">katta harsha vardhan — final-year aiml undergrad, systems tinkerer</text>
 
   <!-- philosophy -->
-  <rect x="64" y="416" width="10" height="106" fill="#111111"/>
-  <text x="96" y="446" font-size="24" font-weight="800" class="sans" fill="#111111">not a student who codes.</text>
-  <text x="96" y="480" font-size="19" class="sans" fill="#111111">a person who builds things to understand them,</text>
-  <text x="96" y="508" font-size="19" class="sans" fill="#111111">then breaks them to understand them better.</text>
+  <text x="64" y="504" font-size="24" font-weight="700" class="sans" fill="#EAF3FA">not a student who codes.</text>
+  <text x="64" y="536" font-size="18" class="sans" fill="#EAF3FA" fill-opacity=".85">a person who builds things to understand them,</text>
+  <text x="64" y="564" font-size="18" class="sans" fill="#EAF3FA" fill-opacity=".85">then breaks them to understand them better.</text>
 
-  <!-- tags -->
-  <g class="mono" font-size="13" font-weight="700" letter-spacing="1">
-    <rect x="68" y="558" width="180" height="36" fill="#111111"/>
-    <rect x="64" y="554" width="180" height="36" fill="#FFD93D" stroke="#111111" stroke-width="3"/>
-    <text x="154" y="577" text-anchor="middle" fill="#111111">AIML UNDERGRAD</text>
-
-    <rect x="276" y="558" width="116" height="36" fill="#111111"/>
-    <rect x="272" y="554" width="116" height="36" fill="#9DB4FF" stroke="#111111" stroke-width="3"/>
-    <text x="330" y="577" text-anchor="middle" fill="#111111">BUILDER</text>
-
-    <rect x="420" y="558" width="236" height="36" fill="#111111"/>
-    <rect x="416" y="554" width="236" height="36" fill="#FF5C9D" stroke="#111111" stroke-width="3"/>
-    <text x="534" y="577" text-anchor="middle" fill="#111111">EXPERIMENTAL SYSTEMS</text>
+  <!-- keywords -->
+  <g class="mono" font-size="12" font-weight="700" letter-spacing="1.5" fill="#EAF3FA">
+    <rect x="64" y="596" width="184" height="34" fill="none" stroke="#EAF3FA" stroke-width="1.5"/>
+    <text x="156" y="618" text-anchor="middle">AIML UNDERGRAD</text>
+    <rect x="262" y="596" width="116" height="34" fill="none" stroke="#EAF3FA" stroke-width="1.5"/>
+    <text x="320" y="618" text-anchor="middle">BUILDER</text>
+    <rect x="392" y="596" width="240" height="34" fill="none" stroke="#EAF3FA" stroke-width="1.5"/>
+    <text x="512" y="618" text-anchor="middle">EXPERIMENTAL SYSTEMS</text>
   </g>
 
-  <!-- ================= SECTION 01: ACTIVE BUILDS ================= -->
-  <rect x="64" y="650" width="56" height="40" fill="#111111"/>
-  <text x="92" y="677" text-anchor="middle" font-size="20" font-weight="700" class="mono" fill="#C8F43A">01</text>
-  <text x="140" y="684" font-size="44" class="heavy" fill="#111111">ACTIVE BUILDS</text>
-  <text x="64" y="722" font-size="16" class="sans" fill="#3A3A3A">Small systems built to answer larger questions, not to pad a résumé.</text>
+  <line x1="64" y1="668" x2="1136" y2="668" stroke="#EAF3FA" stroke-opacity=".3"/>
 
-  <!-- TermNav (wide) -->
-  <rect x="72" y="756" width="1072" height="120" fill="#111111"/>
-  <rect x="64" y="748" width="1072" height="120" fill="#C8F43A" stroke="#111111" stroke-width="4"/>
-  <text x="92" y="806" font-size="40" class="heavy" fill="#111111">TERMNAV</text>
-  <rect x="982" y="768" width="126" height="32" fill="#111111"/>
-  <text x="1045" y="789" text-anchor="middle" font-size="13" font-weight="700" letter-spacing="1" class="mono" fill="#C8F43A">SHIPPED</text>
-  <text x="92" y="844" font-size="18" class="sans" fill="#111111">Keyboard-driven terminal navigation, published to npm — the first system that felt real.</text>
+  <!-- ================= ACTIVE BUILDS: PARTS LIST ================= -->
+  <text x="64" y="724" font-size="44" class="disp" fill="#EAF3FA" letter-spacing="1">ACTIVE BUILDS</text>
+  <text x="64" y="756" font-size="16" class="sans" fill="#EAF3FA" fill-opacity=".8">Small systems built to answer larger questions, not to pad a résumé.</text>
 
-  <!-- Doclayer -->
-  <rect x="72" y="906" width="524" height="150" fill="#111111"/>
-  <rect x="64" y="898" width="524" height="150" fill="#FFD93D" stroke="#111111" stroke-width="4"/>
-  <text x="92" y="950" font-size="32" class="heavy" fill="#111111">DOCLAYER</text>
-  <rect x="470" y="916" width="96" height="30" fill="#111111"/>
-  <text x="518" y="936" text-anchor="middle" font-size="12" font-weight="700" letter-spacing="1" class="mono" fill="#FFFFFF">ACTIVE</text>
-  <text x="92" y="992" font-size="17" class="sans" fill="#111111">Word Automation System</text>
-
-  <!-- MorphStudio -->
-  <rect x="620" y="906" width="524" height="150" fill="#111111"/>
-  <rect x="612" y="898" width="524" height="150" fill="#FF8FB7" stroke="#111111" stroke-width="4"/>
-  <text x="640" y="950" font-size="32" class="heavy" fill="#111111">MORPHSTUDIO</text>
-  <rect x="1018" y="916" width="96" height="30" fill="#111111"/>
-  <text x="1066" y="936" text-anchor="middle" font-size="12" font-weight="700" letter-spacing="1" class="mono" fill="#FFFFFF">ACTIVE</text>
-  <text x="640" y="992" font-size="17" class="sans" fill="#111111">Graphics and vector work that outgrew</text>
-  <text x="640" y="1018" font-size="17" class="sans" fill="#111111">a weekend curiosity.</text>
-
-  <!-- Nexis -->
-  <rect x="72" y="1086" width="524" height="150" fill="#111111"/>
-  <rect x="64" y="1078" width="524" height="150" fill="#9DB4FF" stroke="#111111" stroke-width="4"/>
-  <text x="92" y="1130" font-size="32" class="heavy" fill="#111111">NEXIS</text>
-  <rect x="470" y="1096" width="96" height="30" fill="#111111"/>
-  <text x="518" y="1116" text-anchor="middle" font-size="12" font-weight="700" letter-spacing="1" class="mono" fill="#FFFFFF">WIP</text>
-  <text x="92" y="1172" font-size="17" class="sans" fill="#111111">Distributed systems — because one</text>
-  <text x="92" y="1198" font-size="17" class="sans" fill="#111111">machine was never enough.</text>
-
-  <!-- Orbit -->
-  <rect x="620" y="1086" width="524" height="150" fill="#111111"/>
-  <rect x="612" y="1078" width="524" height="150" fill="#FFFFFF" stroke="#111111" stroke-width="4"/>
-  <text x="640" y="1130" font-size="32" class="heavy" fill="#111111">ORBIT</text>
-  <rect x="1002" y="1096" width="112" height="30" fill="#111111"/>
-  <text x="1058" y="1116" text-anchor="middle" font-size="12" font-weight="700" letter-spacing="1" class="mono" fill="#FFFFFF">ONGOING</text>
-  <text x="640" y="1172" font-size="17" class="sans" fill="#111111">An operating system from scratch — probably</text>
-  <text x="640" y="1198" font-size="17" class="sans" fill="#111111">never finished, always instructive.</text>
-
-  <!-- ================= SECTION 02: THE LOOP ================= -->
-  <rect x="64" y="1300" width="56" height="40" fill="#111111"/>
-  <text x="92" y="1327" text-anchor="middle" font-size="20" font-weight="700" class="mono" fill="#C8F43A">02</text>
-  <text x="140" y="1334" font-size="44" class="heavy" fill="#111111">THE LOOP</text>
-  <text x="64" y="1372" font-size="16" class="sans" fill="#3A3A3A">Five real stages, repeated until something works.</text>
-
-  <!-- step 1 -->
-  <rect x="72" y="1408" width="200" height="190" fill="#111111"/>
-  <rect x="64" y="1400" width="200" height="190" fill="#FFFFFF" stroke="#111111" stroke-width="4"/>
-  <text x="84" y="1462" font-size="52" class="heavy" fill="#111111">01</text>
-  <text x="84" y="1508" font-size="18" font-weight="800" class="sans" fill="#111111">encounter</text>
-  <text x="84" y="1532" font-size="18" font-weight="800" class="sans" fill="#111111">something</text>
-  <text x="84" y="1556" font-size="18" font-weight="800" class="sans" fill="#111111">confusing</text>
-
-  <!-- step 2 -->
-  <rect x="290" y="1408" width="200" height="190" fill="#111111"/>
-  <rect x="282" y="1400" width="200" height="190" fill="#FFD93D" stroke="#111111" stroke-width="4"/>
-  <text x="302" y="1462" font-size="52" class="heavy" fill="#111111">02</text>
-  <text x="302" y="1508" font-size="18" font-weight="800" class="sans" fill="#111111">build the</text>
-  <text x="302" y="1532" font-size="18" font-weight="800" class="sans" fill="#111111">smallest</text>
-  <text x="302" y="1556" font-size="18" font-weight="800" class="sans" fill="#111111">version</text>
-
-  <!-- step 3 -->
-  <rect x="508" y="1408" width="200" height="190" fill="#111111"/>
-  <rect x="500" y="1400" width="200" height="190" fill="#FF5C9D" stroke="#111111" stroke-width="4"/>
-  <text x="520" y="1462" font-size="52" class="heavy" fill="#111111">03</text>
-  <text x="520" y="1508" font-size="18" font-weight="800" class="sans" fill="#111111">break it</text>
-  <text x="520" y="1532" font-size="18" font-weight="800" class="sans" fill="#111111">on purpose</text>
-
-  <!-- step 4 -->
-  <rect x="726" y="1408" width="200" height="190" fill="#111111"/>
-  <rect x="718" y="1400" width="200" height="190" fill="#9DB4FF" stroke="#111111" stroke-width="4"/>
-  <text x="738" y="1462" font-size="52" class="heavy" fill="#111111">04</text>
-  <text x="738" y="1508" font-size="18" font-weight="800" class="sans" fill="#111111">understand</text>
-  <text x="738" y="1532" font-size="18" font-weight="800" class="sans" fill="#111111">the failure</text>
-
-  <!-- step 5 -->
-  <rect x="944" y="1408" width="200" height="190" fill="#111111"/>
-  <rect x="936" y="1400" width="200" height="190" fill="#C8F43A" stroke="#111111" stroke-width="4"/>
-  <text x="956" y="1462" font-size="52" class="heavy" fill="#111111">05</text>
-  <text x="956" y="1508" font-size="18" font-weight="800" class="sans" fill="#111111">rebuild it</text>
-  <text x="956" y="1532" font-size="18" font-weight="800" class="sans" fill="#111111">properly</text>
-
-  <!-- loop back -->
-  <path d="M1036 1606 V1632 H164 V1608" stroke="#111111" stroke-width="3" stroke-dasharray="8 6"/>
-  <path d="M152 1616 L164 1604 L176 1616" stroke="#111111" stroke-width="3" stroke-linecap="square"/>
-  <text x="600" y="1664" text-anchor="middle" font-size="14" font-weight="700" class="mono" fill="#111111">↻ loops back to 01 — next confusing thing</text>
-
-  <!-- ================= SECTION 03: OPEN QUESTIONS ================= -->
-  <rect x="64" y="1720" width="56" height="40" fill="#111111"/>
-  <text x="92" y="1747" text-anchor="middle" font-size="20" font-weight="700" class="mono" fill="#C8F43A">03</text>
-  <text x="140" y="1754" font-size="44" class="heavy" fill="#111111">OPEN QUESTIONS</text>
-
-  <!-- note 1 -->
-  <g transform="rotate(-1.5 234 1860)">
-    <rect x="72" y="1798" width="341" height="132" fill="#111111"/>
-    <rect x="64" y="1790" width="341" height="132" fill="#FFD93D" stroke="#111111" stroke-width="4"/>
-    <rect x="84" y="1808" width="92" height="24" fill="#111111"/>
-    <text x="130" y="1825" text-anchor="middle" font-size="12" font-weight="700" letter-spacing="1" class="mono" fill="#C8F43A">#001 OPEN</text>
-    <text x="84" y="1868" font-size="18" font-weight="800" class="sans" fill="#111111">Where ML ends and</text>
-    <text x="84" y="1894" font-size="18" font-weight="800" class="sans" fill="#111111">systems engineering begins.</text>
+  <!-- table frame -->
+  <rect x="64" y="784" width="1072" height="336" stroke="#EAF3FA" stroke-width="1.5"/>
+  <rect x="64" y="784" width="1072" height="36" fill="#EAF3FA" fill-opacity=".10"/>
+  <g stroke="#EAF3FA" stroke-opacity=".55">
+    <path d="M64 820H1136M64 880H1136M64 940H1136M64 1000H1136M64 1060H1136"/>
+    <path d="M124 784V1120M350 784V1120M484 784V1120"/>
+  </g>
+  <g class="mono" font-size="11" letter-spacing="2" fill="#8FB0CC">
+    <text x="76" y="806">NO.</text>
+    <text x="140" y="806">NAME</text>
+    <text x="366" y="806">STATUS</text>
+    <text x="500" y="806">NOTE</text>
   </g>
 
-  <!-- note 2 -->
-  <g transform="rotate(1 599 1860)">
-    <rect x="437" y="1798" width="341" height="132" fill="#111111"/>
-    <rect x="429" y="1790" width="341" height="132" fill="#FF8FB7" stroke="#111111" stroke-width="4"/>
-    <rect x="449" y="1808" width="92" height="24" fill="#111111"/>
-    <text x="495" y="1825" text-anchor="middle" font-size="12" font-weight="700" letter-spacing="1" class="mono" fill="#C8F43A">#002 OPEN</text>
-    <text x="449" y="1868" font-size="18" font-weight="800" class="sans" fill="#111111">How schedulers decide</text>
-    <text x="449" y="1894" font-size="18" font-weight="800" class="sans" fill="#111111">what deserves to run next.</text>
+  <!-- row 1 TermNav -->
+  <text x="76" y="857" font-size="14" class="mono" fill="#8FB0CC">01</text>
+  <text x="140" y="857" font-size="20" font-weight="700" class="mono" fill="#EAF3FA">TermNav</text>
+  <rect x="366" y="836" width="100" height="28" fill="#EAF3FA"/>
+  <text x="416" y="855" text-anchor="middle" font-size="11" font-weight="700" letter-spacing="1.5" class="mono" fill="#0D2B4A">SHIPPED</text>
+  <text x="500" y="848" font-size="14" class="sans" fill="#EAF3FA" fill-opacity=".9">Keyboard-driven terminal navigation, published to npm —</text>
+  <text x="500" y="868" font-size="14" class="sans" fill="#EAF3FA" fill-opacity=".9">the first system that felt real.</text>
+
+  <!-- row 2 Doclayer -->
+  <text x="76" y="917" font-size="14" class="mono" fill="#8FB0CC">02</text>
+  <text x="140" y="917" font-size="20" font-weight="700" class="mono" fill="#EAF3FA">Doclayer</text>
+  <rect x="366" y="896" width="100" height="28" fill="#FFD23F"/>
+  <text x="416" y="915" text-anchor="middle" font-size="11" font-weight="700" letter-spacing="1.5" class="mono" fill="#0D2B4A">ACTIVE</text>
+  <text x="500" y="916" font-size="14" class="sans" fill="#EAF3FA" fill-opacity=".9">Word Automation System</text>
+
+  <!-- row 3 MorphStudio -->
+  <text x="76" y="977" font-size="14" class="mono" fill="#8FB0CC">03</text>
+  <text x="140" y="977" font-size="20" font-weight="700" class="mono" fill="#EAF3FA">MorphStudio</text>
+  <rect x="366" y="956" width="100" height="28" fill="#FFD23F"/>
+  <text x="416" y="975" text-anchor="middle" font-size="11" font-weight="700" letter-spacing="1.5" class="mono" fill="#0D2B4A">ACTIVE</text>
+  <text x="500" y="976" font-size="14" class="sans" fill="#EAF3FA" fill-opacity=".9">Graphics and vector work that outgrew a weekend curiosity.</text>
+
+  <!-- row 4 Nexis -->
+  <text x="76" y="1037" font-size="14" class="mono" fill="#8FB0CC">04</text>
+  <text x="140" y="1037" font-size="20" font-weight="700" class="mono" fill="#EAF3FA">Nexis</text>
+  <rect x="366" y="1016" width="100" height="28" stroke="#EAF3FA" stroke-width="1.5"/>
+  <text x="416" y="1035" text-anchor="middle" font-size="11" font-weight="700" letter-spacing="1.5" class="mono" fill="#EAF3FA">WIP</text>
+  <text x="500" y="1036" font-size="14" class="sans" fill="#EAF3FA" fill-opacity=".9">Distributed systems — because one machine was never enough.</text>
+
+  <!-- row 5 Orbit -->
+  <text x="76" y="1097" font-size="14" class="mono" fill="#8FB0CC">05</text>
+  <text x="140" y="1097" font-size="20" font-weight="700" class="mono" fill="#EAF3FA">Orbit</text>
+  <rect x="366" y="1076" width="100" height="28" stroke="#EAF3FA" stroke-width="1.5" stroke-dasharray="5 4"/>
+  <text x="416" y="1095" text-anchor="middle" font-size="11" font-weight="700" letter-spacing="1.5" class="mono" fill="#EAF3FA">ONGOING</text>
+  <text x="500" y="1088" font-size="14" class="sans" fill="#EAF3FA" fill-opacity=".9">An operating system from scratch — probably never finished,</text>
+  <text x="500" y="1108" font-size="14" class="sans" fill="#EAF3FA" fill-opacity=".9">always instructive.</text>
+
+  <line x1="64" y1="1156" x2="1136" y2="1156" stroke="#EAF3FA" stroke-opacity=".3"/>
+
+  <!-- ================= THE LOOP: FEEDBACK SCHEMATIC ================= -->
+  <text x="64" y="1230" font-size="44" class="disp" fill="#EAF3FA" letter-spacing="1">THE LOOP</text>
+  <text x="64" y="1264" font-size="16" class="sans" fill="#EAF3FA" fill-opacity=".8">Five real stages,</text>
+  <text x="64" y="1288" font-size="16" class="sans" fill="#EAF3FA" fill-opacity=".8">repeated until</text>
+  <text x="64" y="1312" font-size="16" class="sans" fill="#EAF3FA" fill-opacity=".8">something works.</text>
+
+  <text x="64" y="1478" font-size="14" class="mono" fill="#EAF3FA"><tspan fill="#FFD23F">↻</tspan> loops back to 01</text>
+  <text x="64" y="1500" font-size="14" class="mono" fill="#8FB0CC">— next confusing thing</text>
+
+  <g transform="translate(0 20)">
+    <!-- centerline (drafting convention) -->
+    <line x1="560" y1="1340" x2="960" y2="1340" stroke="#8FB0CC" stroke-opacity=".5" stroke-dasharray="14 4 2 4"/>
+    <text x="760" y="1336" text-anchor="middle" font-size="11" letter-spacing="2" class="mono" fill="#8FB0CC">REPEAT</text>
+    <text x="760" y="1356" text-anchor="middle" font-size="11" letter-spacing="1" class="mono" fill="#8FB0CC">UNTIL IT WORKS</text>
+
+    <!-- transitions -->
+    <g stroke="#EAF3FA" stroke-width="2" marker-end="url(#arr)">
+      <path class="flow" d="M791.4 1213.9 A130 130 0 0 1 870.2 1271.1"/>
+      <path class="flow" d="M889.7 1330.9 A130 130 0 0 1 859.6 1423.6"/>
+      <path class="flow" d="M808.7 1460.5 A130 130 0 0 1 711.3 1460.5"/>
+      <path class="flow" d="M660.4 1423.6 A130 130 0 0 1 630.3 1330.9"/>
+      <path class="flow" d="M649.8 1271.1 A130 130 0 0 1 728.6 1213.9"/>
+    </g>
+
+    <!-- nodes -->
+    <circle cx="760" cy="1210" r="16" fill="#0D2B4A" stroke="#EAF3FA" stroke-width="2"/>
+    <text x="760" y="1215" text-anchor="middle" font-size="13" font-weight="700" class="mono" fill="#EAF3FA">01</text>
+
+    <circle cx="883.6" cy="1299.8" r="16" fill="#0D2B4A" stroke="#EAF3FA" stroke-width="2"/>
+    <text x="883.6" y="1304.8" text-anchor="middle" font-size="13" font-weight="700" class="mono" fill="#EAF3FA">02</text>
+
+    <circle cx="836.4" cy="1445.2" r="16" fill="#FFD23F" stroke="#FFD23F" stroke-width="2"/>
+    <text x="836.4" y="1450.2" text-anchor="middle" font-size="13" font-weight="700" class="mono" fill="#0D2B4A">03</text>
+
+    <circle cx="683.6" cy="1445.2" r="16" fill="#0D2B4A" stroke="#EAF3FA" stroke-width="2"/>
+    <text x="683.6" y="1450.2" text-anchor="middle" font-size="13" font-weight="700" class="mono" fill="#EAF3FA">04</text>
+
+    <circle cx="636.4" cy="1299.8" r="16" fill="#0D2B4A" stroke="#EAF3FA" stroke-width="2"/>
+    <text x="636.4" y="1304.8" text-anchor="middle" font-size="13" font-weight="700" class="mono" fill="#EAF3FA">05</text>
+
+    <!-- labels -->
+    <g class="sans" font-size="17" font-weight="600" fill="#EAF3FA">
+      <text x="760" y="1182" text-anchor="middle">encounter something confusing</text>
+      <text x="908" y="1305">build the smallest version</text>
+      <text x="860" y="1451" fill="#FFD23F">break it on purpose</text>
+      <text x="660" y="1451" text-anchor="end">understand the failure</text>
+      <text x="612" y="1305" text-anchor="end">rebuild it properly</text>
+    </g>
   </g>
 
-  <!-- note 3 -->
-  <g transform="rotate(-1 964 1860)">
-    <rect x="802" y="1798" width="341" height="132" fill="#111111"/>
-    <rect x="794" y="1790" width="341" height="132" fill="#9DB4FF" stroke="#111111" stroke-width="4"/>
-    <rect x="814" y="1808" width="92" height="24" fill="#111111"/>
-    <text x="860" y="1825" text-anchor="middle" font-size="12" font-weight="700" letter-spacing="1" class="mono" fill="#C8F43A">#003 OPEN</text>
-    <text x="814" y="1868" font-size="18" font-weight="800" class="sans" fill="#111111">Why some abstractions hold</text>
-    <text x="814" y="1894" font-size="18" font-weight="800" class="sans" fill="#111111">while others leak immediately.</text>
+  <line x1="64" y1="1540" x2="1136" y2="1540" stroke="#EAF3FA" stroke-opacity=".3"/>
+
+  <!-- ================= OPEN QUESTIONS ================= -->
+  <text x="64" y="1594" font-size="44" class="disp" fill="#EAF3FA" letter-spacing="1">OPEN QUESTIONS</text>
+
+  <g>
+    <rect x="64" y="1618" width="342" height="108" fill="#EAF3FA" fill-opacity=".05" stroke="#EAF3FA" stroke-width="1.5"/>
+    <circle cx="86" cy="1644" r="5" stroke="#FFD23F" stroke-width="1.8"/>
+    <text x="100" y="1648" font-size="12" font-weight="700" letter-spacing="1.5" class="mono" fill="#FFD23F">#001 OPEN</text>
+    <text x="84" y="1682" font-size="17" class="sans" fill="#EAF3FA">Where ML ends and</text>
+    <text x="84" y="1706" font-size="17" class="sans" fill="#EAF3FA">systems engineering begins.</text>
+
+    <rect x="429" y="1618" width="342" height="108" fill="#EAF3FA" fill-opacity=".05" stroke="#EAF3FA" stroke-width="1.5"/>
+    <circle cx="451" cy="1644" r="5" stroke="#FFD23F" stroke-width="1.8"/>
+    <text x="465" y="1648" font-size="12" font-weight="700" letter-spacing="1.5" class="mono" fill="#FFD23F">#002 OPEN</text>
+    <text x="449" y="1682" font-size="17" class="sans" fill="#EAF3FA">How schedulers decide</text>
+    <text x="449" y="1706" font-size="17" class="sans" fill="#EAF3FA">what deserves to run next.</text>
+
+    <rect x="794" y="1618" width="342" height="108" fill="#EAF3FA" fill-opacity=".05" stroke="#EAF3FA" stroke-width="1.5"/>
+    <circle cx="816" cy="1644" r="5" stroke="#FFD23F" stroke-width="1.8"/>
+    <text x="830" y="1648" font-size="12" font-weight="700" letter-spacing="1.5" class="mono" fill="#FFD23F">#003 OPEN</text>
+    <text x="814" y="1682" font-size="17" class="sans" fill="#EAF3FA">Why some abstractions hold</text>
+    <text x="814" y="1706" font-size="17" class="sans" fill="#EAF3FA">while others leak immediately.</text>
   </g>
 
-  <!-- ================= FOOTER ================= -->
-  <rect y="1950" width="1200" height="40" fill="#111111"/>
-  <text x="64" y="1975" font-size="12" letter-spacing="1" class="mono" fill="#8B8B8B">coursework gathers dust · experiments do not.</text>
-  <text x="1136" y="1975" text-anchor="end" font-size="12" letter-spacing="1" font-weight="700" class="mono" fill="#C8F43A">build → break → understand</text>
+  <!-- ================= TITLE BLOCK ================= -->
+  <text x="64" y="1796" font-size="12" letter-spacing="1" class="mono" fill="#8FB0CC">coursework gathers dust · experiments do not.</text>
+
+  <rect x="600" y="1756" width="536" height="90" stroke="#EAF3FA" stroke-width="2"/>
+  <path d="M600 1786H1136M600 1816H1136M700 1756V1846" stroke="#EAF3FA" stroke-opacity=".7"/>
+  <g class="mono" font-size="11" letter-spacing="2" fill="#8FB0CC">
+    <text x="612" y="1776">DRAWN BY</text>
+    <text x="612" y="1806">ROLE</text>
+    <text x="612" y="1836">SITE</text>
+  </g>
+  <g class="mono" font-size="14" fill="#EAF3FA">
+    <text x="712" y="1776" font-weight="700">katta harsha vardhan</text>
+    <text x="712" y="1806">final-year aiml undergrad · systems tinkerer</text>
+    <text x="712" y="1836" fill="#FFD23F" font-weight="700">kattaharsha.dev</text>
+  </g>
 </svg>
