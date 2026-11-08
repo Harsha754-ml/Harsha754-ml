@@ -19,5 +19,5 @@
 <g class="comet c1"><path d="M0 0 L190 -82" stroke="url(#tail)" stroke-width="2.4" stroke-linecap="round"/><path d="M0 0 L118 -51" stroke="#fff" stroke-width=".7" opacity=".5"/><circle r="7" fill="url(#glow)"/><circle r="1.8" fill="#fff"/></g>
 <g class="comet c2"><path d="M0 0 L170 -74" stroke="url(#tail)" stroke-width="2" stroke-linecap="round"/><circle r="6" fill="url(#glow)"/><circle r="1.5" fill="#fff"/></g>
 <g class="comet c3"><path d="M0 0 L150 -65" stroke="url(#tail)" stroke-width="1.8" stroke-linecap="round"/><circle r="5.5" fill="url(#glow)"/><circle r="1.4" fill="#fff"/></g>
-<text x="600" y="177" text-anchor="middle" fill="#fff" font-family="Georgia, 'Times New Roman', serif" font-size="65" font-weight="400" letter-spacing="-1.8">Harsha<tspan opacity=".65">.</tspan></text>
+<text x="600" y="177" text-anchor="middle" fill="#fff" font-family="Georgia, 'Times New Roman', serif" font-size="65" font-weight="400" letter-spacing="-1.8">Harsha<tspan opacity=".65"></tspan></text>
 </svg>
