@@ -7,5 +7,5 @@
 -->
 
 <p align="center">
-  <img src="./banner.svg" alt="Harsha — field notes active" width="100%" />
+  <img src="./banner.svg" alt="HarsH" width="100%" />
 </p>
