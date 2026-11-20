@@ -55,5 +55,5 @@
 <g transform="translate(0,70)"><g class="comet c3"><path d="M0 0 L150 -40" stroke="url(#tail)" stroke-width="1.8" stroke-linecap="round"/><circle r="5.5" fill="url(#glow)"/><circle r="1.4" fill="#fff"/></g></g>
 <!-- 5 · name -->
 <ellipse cx="600" cy="160" rx="230" ry="62" fill="url(#tshade)"/>
-<text x="600" y="181" text-anchor="middle" fill="#fff" font-family="'Instrument Serif','Playfair Display',Georgia,'Times New Roman',serif" font-size="66" font-weight="400" letter-spacing="-1">Harsha</text>
+<text x="600" y="181" text-anchor="middle" fill="#fff" font-family="'Instrument Serif','Playfair Display',Georgia,'Times New Roman',serif" font-size="66" font-weight="400" letter-spacing="-1">HarsH</text>
 </svg>
